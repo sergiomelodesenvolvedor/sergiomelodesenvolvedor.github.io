@@ -1,5 +1,23 @@
 
 
+#span-menu-home{
+  cursor:pointer
+}
+
+#span-menu-projetos-backend{
+  cursor:pointer
+}
+
+
+
+#span-menu-home:hover{
+  color:rgb(1, 1, 77)
+}
+
+#span-menu-projetos-backend:hover{
+  color:rgb(1, 1, 77)
+}
+
 @media (max-width: 424px) {
   #svg-letras {
     transform: scale(2);
@@ -901,7 +919,7 @@
   #div-card-ma-consultoria{
     position:relative;
     top:15vw;
-    left:10vw;
+    left:15vw;
     border: 0px solid black;
     width: 31vw;
     height: 50vw;
