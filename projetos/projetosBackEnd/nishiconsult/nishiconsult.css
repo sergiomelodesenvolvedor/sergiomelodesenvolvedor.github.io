@@ -1,0 +1,530 @@
+#title-sergio {
+    font-family: "Kanit";
+}
+
+#title-prisioner-control {
+    font-family: "Roboto";
+    color: rgb(45, 26, 99);
+}
+
+#text-prisioner-control {
+    font-family: "Quicksand"
+}
+
+
+@media (max-width: 424px) {
+
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    
+    #menu{
+        position:relative;
+        right: 5vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 6vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 426px) and (max-width: 576px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+    #menu-hamburger{
+        font-size:9vw;
+        position:relative;
+        right: 3vw;
+    }
+    #menu{
+        position:relative;
+        right: 5vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 6vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+    #menu-hamburger{
+        font-size:8vw;
+        position:relative;
+        left:5vw;
+    }
+
+    #menu{
+        position:relative;
+        right: -3vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 6vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 8vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #menu-hamburger{
+        font-size:8vw;
+        position:relative;
+        left:0vw;
+    }
+
+    #menu{
+        position:relative;
+        right: -3vw;
+        top:0vw;
+        border:0px solid black;
+        width: 65.7vw;
+        height:60vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:6.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #icon-fechar-menu{
+        position:relative;
+        left:57vw !important;
+        top:-0vw !important;
+        font-size:8vw;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:0vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:8vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        top:15vw;
+        left:-1.5vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 9.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 5vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 50vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 100vw;
+        height: 90vw;
+    }
+
+
+}
+
+@media (min-width: 992px) {
+    #container-parte-1 {
+        position: relative;
+        top: 3vw;
+    }
+
+    #title-sergio {
+        font-size: 4vw;
+    }
+
+    #menu{
+        position:relative;
+        right: 1.5vw;
+        border:0px solid black;
+        width: 15.7vw;
+        height:12vw;
+        color:rgb(94, 94, 187);
+        text-decoration: overline;
+        font-size:1.5vw;
+        background-color:rgb(231, 231, 231);
+        box-shadow: rgba(0, 0, 0, 0.2) -3px 5px 10px;
+        z-index: 2;
+        display:none;
+    }
+
+    #li-home{
+        
+        position:relative;
+        left:-1.5vw;
+        top:-1vw;
+        cursor:pointer;
+    }
+
+    li:hover{
+        color:blue
+    }
+
+    #li-projetos-backend{
+        position:relative;
+        left:-1.5vw;
+        top:0.5vw;
+        cursor:pointer;
+    }
+
+    #li-projetos-frontend{
+        position:relative;
+        left:-1.5vw;
+        top:2vw;
+        cursor:pointer;
+    }
+
+    #div-menu{
+        z-index:2;
+        border:0px solid black;
+        height:12.3vw;
+    }
+
+    #container-parte-2 {
+        position: relative;
+        top: 17vw;
+    }
+
+    #title-prisioner-control {
+        font-size: 4.5vw;
+
+    }
+
+    #container-parte-3 {
+        position: relative;
+        top: 25vw;
+    }
+
+    #text-prisioner-control {
+        font-size: 2.5vw;
+    }
+
+
+    #container-parte-4 {
+        position: relative;
+        top: 30vw;
+    }
+
+    #gif-nishi {
+        position: relative;
+        z-index: 1;
+        width: 60vw;
+        height: 40vw;
+    }
+
+
+}
+
