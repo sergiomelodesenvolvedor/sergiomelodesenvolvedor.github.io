@@ -126,4 +126,19 @@ document.addEventListener("click", (e) => {
 
 })
 
-// alert(innerWidth+'x'+innerHeight)
+ //aqui começa a funcao de click nos menus
+
+ document.querySelector("#span-menu-home").addEventListener('click',()=>{
+  window.location.href='../../'
+})
+
+document.querySelector("#span-menu-projetos-frontend").addEventListener('click',()=>{
+  window.location.href='../projetosFrontEnd/projetosFrontend.html'
+})
+
+//aqui começa as funçõe de click nos cards
+
+document.querySelector("#div-card-prisioner").addEventListener('click',()=>{
+  window.location.href='../projetosBackEnd/nishiconsult/nishiconsult.html'
+})
+
