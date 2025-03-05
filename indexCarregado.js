@@ -244,3 +244,17 @@ function sendEmail() {
 buttonEnviarMensagem.addEventListener("click", sendEmail);
 
 
+//click no menu hamburguer para celular
+
+document.querySelector("#menu-hamburguer").addEventListener('click',()=>{
+  document.querySelector("#menu-tela-pequena").style.height="95vw"
+  document.querySelector("#menu-hamburguer").style.visibility="hidden"
+})
+
+document.querySelector("#icone-fechar").addEventListener('click',()=>{
+  document.querySelector("#menu-tela-pequena").style.height="0vw"
+  document.querySelector("#menu-hamburguer").style.visibility="visible"
+  
+})
+
+

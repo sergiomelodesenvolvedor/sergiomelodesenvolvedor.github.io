@@ -78,23 +78,25 @@
     border: 3px solid rgb(226, 226, 226);
     padding: 1.5vw;
     border-radius: 3vw;
-
+    z-index: 9999;
   }
 
   #menu-tela-pequena{
     position:absolute;
     left:70vw;
     top:0vw;
-    
+    transition: height 0.4s ease-in-out;
     background-color:rgba(33, 37, 41);
 
     width:30vw;
-    height:95vw;
+    height:0vw;
+    overflow: hidden;
 
   }
 
   #li-icone-fechar{
     position:absolute;
+    z-index: 9999;
     top:18vw;
     left:20vw;
   }
@@ -1123,6 +1125,9 @@
 
   }
 
+  #menu-tela-pequena{
+    display: none;
+  }
   #container-parte-1 {
     height: 65vw;
     border: 0px solid yellow;
