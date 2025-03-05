@@ -86,11 +86,12 @@
     left:70vw;
     top:0vw;
     transition: height 0.4s ease-in-out;
-    background-color:rgba(33, 37, 41);
+    background-color:rgb(33, 37, 41,1);
 
     width:30vw;
     height:0vw;
     overflow: hidden;
+    z-index: 9999
 
   }
 

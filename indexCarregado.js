@@ -254,7 +254,14 @@ document.querySelector("#menu-hamburguer").addEventListener('click',()=>{
 document.querySelector("#icone-fechar").addEventListener('click',()=>{
   document.querySelector("#menu-tela-pequena").style.height="0vw"
   document.querySelector("#menu-hamburguer").style.visibility="visible"
-  
+})
+
+document.querySelector('body').addEventListener('click',(e)=>{
+  if(!e.target.matches("#menu-tela-pequena, #menu-hamburguer,#li-menu-home,#li-menu-projetos,#li-menu-contato,#li-menu-rodape")){
+   document.querySelector("#menu-tela-pequena").style.height="0vw"
+  document.querySelector("#menu-hamburguer").style.visibility="visible"
+  console.log(e.target)
+  }  
 })
 
 
