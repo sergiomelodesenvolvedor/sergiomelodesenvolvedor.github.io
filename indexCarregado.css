@@ -81,6 +81,47 @@
 
   }
 
+  #menu-tela-pequena{
+    position:absolute;
+    left:70vw;
+    top:0vw;
+    
+    background-color:rgba(33, 37, 41);
+
+    width:30vw;
+    height:95vw;
+
+  }
+
+  #li-icone-fechar{
+    position:absolute;
+    top:18vw;
+    left:20vw;
+  }
+
+  #icone-fechar{
+    color:white;
+    font-size:10vw;
+  }
+
+  .menu-li{
+    z-index: 9999;
+    top:27vw;
+    position:relative;
+    left:-5vw;
+    font-size:6vw;
+    color:white;
+    list-style-type: none;
+    margin-top:7vw;
+  }
+  .menu-li a:link{
+    color:white;
+    text-decoration: none;
+  }
+  .menu-li a:visited{
+    color:white
+  }
+
   #container-parte-1 {
     height: 170vw;
     border: 0px solid black;
