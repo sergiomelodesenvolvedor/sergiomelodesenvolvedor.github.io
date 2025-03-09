@@ -38,3 +38,17 @@ document.querySelector("#menu-rodape").addEventListener('click',(event)=>{
     behavior:'smooth'
    }) 
 })
+
+
+
+//aqui vou fazer a função de fechar e abrir o menu
+
+document.querySelector("#icone-humburger").addEventListener('click',()=>{
+    document.querySelector("#menu-lista").style.height="94vw"
+    document.querySelector("#icone-humburger").style.opacity="0"
+})
+
+document.querySelector("#li-icone-fechar").addEventListener('click',()=>{
+    document.querySelector("#menu-lista").style.height="0vw"
+    document.querySelector("#icone-humburger").style.opacity="1"
+})
