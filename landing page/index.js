@@ -193,7 +193,7 @@ window.addEventListener('scroll', () => {
 
         let topDoElementoambiental = document.querySelector('#pai-servico-ambiental').getBoundingClientRect().top
 
-        if (topDoElementoambiental <= 970) {
+        if (topDoElementoambiental <= 1100) {
             document.querySelector('#pai-servico-ambiental').style.filter = "blur(0)"
             document.querySelector('#pai-servico-ambiental').style.top = "61vw"
         }
@@ -202,7 +202,7 @@ window.addEventListener('scroll', () => {
 
         let topDoElementoSaude = document.querySelector('#pai-servico-saude').getBoundingClientRect().top
 
-        if (topDoElementoSaude <= 970) {
+        if (topDoElementoSaude <= 1200) {
             document.querySelector('#pai-servico-saude').style.filter = "blur(0)"
             document.querySelector('#pai-servico-saude').style.top = "61vw"
         }
@@ -210,7 +210,7 @@ window.addEventListener('scroll', () => {
 
         let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
         
-        if (topDoElementoSeguranca <= 970) {
+        if (topDoElementoSeguranca <= 1300) {
 
             document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
             document.querySelector('#pai-servico-seguranca').style.top = "61vw"
@@ -218,7 +218,7 @@ window.addEventListener('scroll', () => {
 
         let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
         console.log(topDoPaiNescessidade2)
-        if (topDoPaiNescessidade2 <= 400) {
+        if (topDoPaiNescessidade2 <= 600) {
             document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
 
         }
@@ -226,7 +226,7 @@ window.addEventListener('scroll', () => {
         let topDoPaiMissao2 = document.querySelector('#pai-missao').getBoundingClientRect().top
         if (topDoPaiMissao2 <= 618) {
             document.querySelector('#pai-missao').style.filter = "blur(0)";
-            document.querySelector('#pai-missao').style.top = "85vw";
+            
         }
     }
 
