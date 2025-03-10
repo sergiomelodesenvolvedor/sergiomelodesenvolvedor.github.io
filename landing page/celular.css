@@ -146,7 +146,7 @@
         position: relative;
         filter:blur(5px);
         transition:filter 0.5s ease,top 0.5s ease;
-        top: 70vw;
+        top: 90vw;
         left: 1.2vw;
         width: 98vw;
         height: 80vw;
@@ -1351,6 +1351,8 @@
         width: 100vw;
         position: relative;
         top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease;
 
 
     }
@@ -1449,7 +1451,8 @@
         position: relative;
         top: 85vw;
         left: 0vw;
-
+        filter:blur(5px);
+        transition:filter 0.5s ease;
         width: 98vw;
         height: 192vw;
         background-size: 130vw 156vw;
@@ -1880,6 +1883,7 @@
         width: 100vw;
         position: relative;
         top: 80vw;
+        
 
 
     }
@@ -2295,15 +2299,23 @@
     }
 
     #servicos-oferecidos-title {
+        position:relative;
+        top:10vw;
+        filter:blur(5px);
+        transition:top 0.5s ease, filter 1s ease;
+
         font-family: "Readex Pro", sans-serif;
         font-size: 3.7vw;
         color: green
     }
 
     #pai-servico-ambiental {
+        
         position: relative;
         float: left;
-        top: 60vw;
+        filter:blur(5px);
+        transition:top 0.5s ease, filter 1s ease;
+        top: 90vw;
         left: 1vw;
         width: 30vw;
         height: 33vw;
@@ -2346,7 +2358,10 @@
     #pai-servico-saude {
         position: relative;
         float: left;
-        top: 60vw;
+        filter:blur(5px);
+        transition:top 0.5s ease, filter 1s ease;
+        top: 100vw;
+        
         left: 4vw;
         width: 30vw;
         height: 33vw;
@@ -2389,7 +2404,10 @@
 
         position: relative;
         float: left;
-        top: 60vw;
+        filter:blur(5px);
+        transition:top 0.5s ease, filter 1s ease;
+        top: 110vw;
+        
         left: 7vw;
         width: 30vw;
         height: 33vw;
