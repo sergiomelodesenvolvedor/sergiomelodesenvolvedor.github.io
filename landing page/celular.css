@@ -144,8 +144,7 @@
     #pai-servico-ambiental {
         
         position: relative;
-        filter:blur(5px);
-        transition:filter 0.5s ease,top 0.5s ease;
+        transition:top 0.2s ease;
         top: 90vw;
         left: 1.2vw;
         width: 98vw;
@@ -182,8 +181,7 @@
         position: relative;
         top: 80vw;
         left: 1.2vw;
-        filter:blur(5px);
-        transition:filter 0.5s ease,top 0.5s ease;
+        transition:top 0.2s ease;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -219,8 +217,7 @@
         position: relative;
         top: 90vw;
         left: 1.2vw;
-        filter:blur(5px);
-        transition:filter 0.5s ease,top 0.5s ease;
+        transition:top 0.2s ease;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -259,7 +256,7 @@
         position: relative;
         top: 80vw;
         filter:blur(5px);
-        transition:filter 0.5s ease;
+        
 
     }
 
@@ -2313,8 +2310,7 @@
         
         position: relative;
         float: left;
-        filter:blur(5px);
-        transition:top 0.5s ease, filter 1s ease;
+        transition:top 0.2s ease;
         top: 90vw;
         left: 1vw;
         width: 30vw;
@@ -2358,8 +2354,8 @@
     #pai-servico-saude {
         position: relative;
         float: left;
-        filter:blur(5px);
-        transition:top 0.5s ease, filter 1s ease;
+        
+        transition:top 0.2s ease;
         top: 100vw;
         
         left: 4vw;
@@ -2404,8 +2400,7 @@
 
         position: relative;
         float: left;
-        filter:blur(5px);
-        transition:top 0.5s ease, filter 1s ease;
+        transition:top 0.2s ease;
         top: 110vw;
         
         left: 7vw;
@@ -2449,7 +2444,8 @@
         width: 100vw;
         position: relative;
         top: 100vw;
-        filter:blur(5px)
+        filter:blur(2px);
+        transition:filter 0.2s ease;
 
 
     }
@@ -2569,6 +2565,7 @@
         background-position: -10vw;
         border: 0px solid rgb(173, 173, 173);
         border-radius: 5vw;
+        filter: blur(5px);
 
 
     }
@@ -2614,7 +2611,7 @@
         border: 1px solid black;
         background-color: #026C0D;
         position: absolute;
-        top: 270vw;
+        top: 250vw;
     }
 
     #logo-footer {

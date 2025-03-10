@@ -118,7 +118,7 @@ window.addEventListener('scroll', () => {
 
 
         let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
-        console.log(topDoElementoSeguranca)
+        
         if (topDoElementoSeguranca <= 775) {
 
             document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
@@ -168,7 +168,7 @@ window.addEventListener('scroll', () => {
         }
 
         let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
-        console.log(topDoPaiNescessidade2)
+       
         if (topDoPaiNescessidade2 <= 400) {
             document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
 
@@ -217,14 +217,14 @@ window.addEventListener('scroll', () => {
         }
 
         let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
-        console.log(topDoPaiNescessidade2)
+        
         if (topDoPaiNescessidade2 <= 600) {
             document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
 
         }
 
         let topDoPaiMissao2 = document.querySelector('#pai-missao').getBoundingClientRect().top
-        if (topDoPaiMissao2 <= 618) {
+        if (topDoPaiMissao2 <= 318) {
             document.querySelector('#pai-missao').style.filter = "blur(0)";
             
         }
