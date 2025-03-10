@@ -58,40 +58,123 @@ document.querySelector("#li-icone-fechar").addEventListener('click', () => {
 
 window.addEventListener('scroll', () => {
 
-    if (window.innerWidth <= "424"){
-    let topDoElementoambiental = document.querySelector('#pai-servico-ambiental').getBoundingClientRect().top
+    if (window.innerWidth <= "424") {
+        let topDoElementoambiental = document.querySelector('#pai-servico-ambiental').getBoundingClientRect().top
 
-    if (topDoElementoambiental <= 775) {
-        document.querySelector('#pai-servico-ambiental').style.filter = "blur(0)"
-        document.querySelector('#pai-servico-ambiental').style.top = "30vw"
+        if (topDoElementoambiental <= 775) {
+            document.querySelector('#pai-servico-ambiental').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-ambiental').style.top = "30vw"
+        }
+
+
+        let topDoElementoSaude = document.querySelector('#pai-servico-saude').getBoundingClientRect().top
+
+        if (topDoElementoSaude <= 775) {
+            document.querySelector('#pai-servico-saude').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-saude').style.top = "40vw"
+        }
+
+
+        let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
+
+        if (topDoElementoSeguranca <= 775) {
+            document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-seguranca').style.top = "50vw"
+        }
+
+        let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
+        if (topDoPaiNescessidade2 <= 618) {
+            document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
+
+        }
+
+        let topDoPaiMissao2 = document.querySelector('#pai-missao').getBoundingClientRect().top
+        if (topDoPaiMissao2 <= 618) {
+            document.querySelector('#pai-missao').style.filter = "blur(0)"
+            document.querySelector('#pai-missao').style.top = "85vw"
+        }
     }
 
 
-    let topDoElementoSaude = document.querySelector('#pai-servico-saude').getBoundingClientRect().top
-   
-    if (topDoElementoSaude <= 775) {
-        document.querySelector('#pai-servico-saude').style.filter = "blur(0)"
-        document.querySelector('#pai-servico-saude').style.top = "40vw"
+
+    if (window.innerWidth >="425" && window.innerWidth <= "576") {
+        let topDoElementoambiental = document.querySelector('#pai-servico-ambiental').getBoundingClientRect().top
+
+        if (topDoElementoambiental <= 775) {
+            document.querySelector('#pai-servico-ambiental').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-ambiental').style.top = "30vw"
+        }
+
+
+        let topDoElementoSaude = document.querySelector('#pai-servico-saude').getBoundingClientRect().top
+
+        if (topDoElementoSaude <= 775) {
+            document.querySelector('#pai-servico-saude').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-saude').style.top = "40vw"
+        }
+
+
+        let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
+            console.log(topDoElementoSeguranca)
+        if (topDoElementoSeguranca <= 775) {
+            
+            document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-seguranca').style.top = "50vw"
+        }
+
+        let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
+        if (topDoPaiNescessidade2 <= 618) {
+            document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
+
+        }
+
+        let topDoPaiMissao2 = document.querySelector('#pai-missao').getBoundingClientRect().top
+        if (topDoPaiMissao2 <= 618) {
+            document.querySelector('#pai-missao').style.filter = "blur(0)"
+            document.querySelector('#pai-missao').style.top = "85vw"
+        }
     }
 
 
-    let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
-   
-    if (topDoElementoSeguranca <= 775) {
-        document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
-        document.querySelector('#pai-servico-seguranca').style.top = "50vw"
+    if (window.innerWidth >="577" && window.innerWidth <= "768") {
+        let topDoElementoambiental = document.querySelector('#pai-servico-ambiental').getBoundingClientRect().top
+
+        if (topDoElementoambiental <= 775) {
+            document.querySelector('#pai-servico-ambiental').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-ambiental').style.top = "30vw"
+        }
+
+
+        let topDoElementoSaude = document.querySelector('#pai-servico-saude').getBoundingClientRect().top
+
+        if (topDoElementoSaude <= 775) {
+            document.querySelector('#pai-servico-saude').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-saude').style.top = "40vw"
+        }
+
+
+        let topDoElementoSeguranca = document.querySelector('#pai-servico-seguranca').getBoundingClientRect().top
+            console.log(topDoElementoSeguranca)
+        if (topDoElementoSeguranca <= 775) {
+            
+            document.querySelector('#pai-servico-seguranca').style.filter = "blur(0)"
+            document.querySelector('#pai-servico-seguranca').style.top = "50vw"
+        }
+
+        let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
+        if (topDoPaiNescessidade2 <= 618) {
+            document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
+
+        }
+
+        let topDoPaiMissao2 = document.querySelector('#pai-missao').getBoundingClientRect().top
+        if (topDoPaiMissao2 <= 618) {
+            document.querySelector('#pai-missao').style.filter = "blur(0)"
+            document.querySelector('#pai-missao').style.top = "85vw"
+        }
     }
 
-    let topDoPaiNescessidade2 = document.querySelector('#pai-nescessidade').getBoundingClientRect().top
-    console.log(topDoPaiNescessidade2)
-    if (topDoPaiNescessidade2 <= 618) {
-        document.querySelector('#pai-nescessidade').style.filter = "blur(0)"
-        
-    }
-}
 
-
-    
 
 })
 

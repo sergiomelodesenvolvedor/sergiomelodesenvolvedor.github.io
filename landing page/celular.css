@@ -142,9 +142,10 @@
     }
 
     #pai-servico-ambiental {
-        transition:filter 0.5s ease,top 0.5s ease;
+        
         position: relative;
         filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
         top: 70vw;
         left: 1.2vw;
         width: 98vw;
@@ -251,14 +252,14 @@
     }
 
     #pai-nescessidade {
-        transition:filter 1s ease;
+        
         background-color: #026C0D;
         height: 205vw;
         width: 100vw;
         position: relative;
         top: 80vw;
-        filter:blur(5px)
-
+        filter:blur(5px);
+        transition:filter 0.5s ease;
 
     }
 
@@ -354,9 +355,11 @@
     #pai-missao {
         margin: 1vw;
         position: relative;
-        top: 85vw;
+        top:95vw;
+        /* top: 85vw; */
         left: 0vw;
-
+        filter:blur(5px);
+        transition:top 0.5s ease,filter 0.5s ease;
         width: 98vw;
         height: 192vw;
         background-size: 130vw 156vw;
@@ -689,8 +692,13 @@
 
     #pai-servico-ambiental {
         position: relative;
-        top: 30vw;
+        /* top: 30vw; */
         left: 1.2vw;
+        top: 70vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        
+        
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -723,8 +731,11 @@
 
     #pai-servico-saude {
         position: relative;
-        top: 40vw;
+        /* top: 40vw; */
         left: 1.2vw;
+        top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -758,8 +769,12 @@
     #pai-servico-seguranca {
 
         position: relative;
-        top: 50vw;
+        /* top: 50vw; */
         left: 1.2vw;
+
+        top: 100vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -796,6 +811,8 @@
         width: 100vw;
         position: relative;
         top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease;
 
 
     }
@@ -894,7 +911,8 @@
         position: relative;
         top: 85vw;
         left: 0vw;
-
+        filter:blur(5px);
+        transition:top 0.5s ease,filter 0.5s ease;
         width: 98vw;
         height: 192vw;
         background-size: 130vw 156vw;
@@ -1217,8 +1235,11 @@
 
     #pai-servico-ambiental {
         position: relative;
-        top: 30vw;
+        /* top: 30vw; */
         left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 70vw;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -1251,8 +1272,11 @@
 
     #pai-servico-saude {
         position: relative;
-        top: 40vw;
+        /* top: 40vw; */
         left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 90vw;
         width: 98vw;
         height: 80vw;
         text-align: center;
@@ -1286,8 +1310,11 @@
     #pai-servico-seguranca {
 
         position: relative;
-        top: 50vw;
+        /* top: 50vw; */
         left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 100vw;
         width: 98vw;
         height: 80vw;
         text-align: center;
