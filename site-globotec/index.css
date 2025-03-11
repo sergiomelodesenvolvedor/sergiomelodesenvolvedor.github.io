@@ -1,0 +1,76 @@
+body {
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, #6185ac, #c4defc, #ffffff);
+
+}
+
+#div-logo {}
+
+#img-globo {
+    width: 7vw;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    position: relative;
+    left: 46.5vw;
+
+}
+
+h1 {
+    font-family: "Oswald", sans-serif;
+    font-size: 3.5vw;
+    color: rgb(3, 3, 83);
+    position: relative;
+    left: 31.5vw;
+    top: 0vw;
+    text-shadow:
+    0 0 5px #fff, /* Brilho branco */
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #fff;
+}
+
+
+main {
+    border: 0px solid black;
+    position: relative;
+    top: -3vw;
+    height: 31vw;
+
+}
+
+#div-leva-e-traz {
+    font-family: "Oswald", sans-serif;
+    font-size: 3vw;
+    position:absolute;
+    border:0px solid black;
+    left:4vw;
+    font-weight: 500;
+    width:20vw;
+    text-align: center;
+    color:#2a16dd;
+    text-shadow:
+   
+    0 0 15px #fff,
+    0 0 20px #fff;
+}
+
+#fundocomtv {
+    position: absolute;
+
+    width: 55vw;
+    left: 22vw;
+
+}
+
+h2 {
+    position: absolute;
+    top: 17vw;
+    left: 37vw;
+    z-index: 9999;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 0 0 10px #6354ee;
+    font-size: 2.1vw;
+    color: rgb(206, 204, 202);
+    width: 25vw;
+    font-weight: 400;
+    text-align: center;
+}
