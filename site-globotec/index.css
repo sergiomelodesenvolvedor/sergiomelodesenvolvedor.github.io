@@ -7,7 +7,7 @@ body {
 #div-logo {}
 
 #img-globo {
-    width: 7vw;
+    width: 5vw;
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
     position: relative;
     left: 46.5vw;
@@ -16,16 +16,30 @@ body {
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 3.5vw;
+    font-size: 2.8vw;
     color: rgb(3, 3, 83);
     position: relative;
-    left: 31.5vw;
-    top: 0vw;
+    left: 34.8vw;
+    top: -2vw;
     text-shadow:
-    0 0 5px #fff, /* Brilho branco */
+    0 0 5px #fff,
     0 0 10px #fff,
     0 0 15px #fff,
-    0 0 20px #fff;
+    0 0 20px #fff
+    
+}
+
+#telefone{
+    position:absolute;
+    font-family: "Oswald", sans-serif;
+    font-size: 2.5vw;
+    font-weight: 700;
+    left:39vw;
+    top:9.5vw;
+    text-shadow:
+    0 0 15px #fff,
+    0 0 20px #fff
+    
 }
 
 
@@ -37,16 +51,23 @@ main {
 
 }
 
+#carro{
+    width:20vw;
+    position:relative;
+    left:6vw;
+    top:4vw;
+}
+
 #div-leva-e-traz {
     font-family: "Oswald", sans-serif;
-    font-size: 3vw;
+    font-size: 2vw;
     position:absolute;
     border:0px solid black;
-    left:4vw;
+    left:7vw;
     font-weight: 500;
-    width:20vw;
+    width:10vw;
     text-align: center;
-    color:#2a16dd;
+    color:#fdfdff;
     text-shadow:
    
     0 0 15px #fff,
@@ -56,15 +77,15 @@ main {
 #fundocomtv {
     position: absolute;
 
-    width: 55vw;
-    left: 22vw;
+    width: 48vw;
+    left: 25vw;
 
 }
 
 h2 {
     position: absolute;
-    top: 17vw;
-    left: 37vw;
+    top: 14.5vw;
+    left: 37.5vw;
     z-index: 9999;
     font-family: "Oswald", sans-serif;
     text-shadow: 0 0 10px #6354ee;
@@ -73,4 +94,72 @@ h2 {
     width: 25vw;
     font-weight: 400;
     text-align: center;
+}
+
+#div-laudos-tecnicos{
+    position:absolute;
+    left:80vw;
+    top:3vw;
+    font-weight: 700;
+    font-size:2.8vw;
+    width:4vw;
+    color:rgb(73, 126, 241);
+    
+    font-family: "Oswald", sans-serif;
+
+}
+
+#lupa{
+    width:5vw;
+    position:absolute;
+    left:73vw;
+    top:5vw;
+}   
+
+footer{
+    position:absolute;
+    top:33.5vw;
+    left:5vw;
+    background-color: rgb(209, 209, 209);
+    border:0px solid black;
+    width:90vw;
+    height:25vw;
+}
+
+.img-cards{width:10vw;
+    position:relative;
+    top:1vw;
+    }
+
+.cards{
+    
+    position: relative;
+    float: left;
+    left:1.7vw;
+    top:0.75vw;
+    width:16vw;
+    height:23.5vw;
+    margin-left:1vw;
+    text-align: center;
+background-color: white;
+}
+
+h3{
+    font-family: "Oswald", sans-serif;
+    font-size:1.5vw;
+}
+
+.card-descricao{
+    text-align: justify;
+    hyphens: auto;
+    font-size:1.3vw;
+    font-family: "Oswald", sans-serif;
+    width:15vw;
+    position:relative;
+    left:0.4vw;
+    top:-0.8vw;
+
+}
+#card1{
+
 }
