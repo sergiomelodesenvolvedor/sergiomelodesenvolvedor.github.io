@@ -27,7 +27,7 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
     position: relative;
     left: 47.5vw;
-    top:-8vh;
+    top:23vh;
 
 
 }
@@ -38,7 +38,7 @@ h1 {
     color: rgb(3, 3, 83);
     position: relative;
     left: 34.8vw;
-    top: -11vh;
+    top: 19vh;
     text-shadow:
         0 0 5px #fff,
         0 0 10px #fff,
@@ -47,12 +47,13 @@ h1 {
 }
 
 #telefone {
-    position: absolute;
+    position:relative;
     font-family: "Oswald", sans-serif;
     font-size: 2.5vw;
     font-weight: 700;
     left: 39vw;
-    top: 19vh;
+    top: 15vh;
+    
     text-shadow:
         0 0 15px #fff,
         0 0 20px #fff
@@ -64,10 +65,10 @@ h1 {
     padding: 1vw;
     box-shadow: 5px 5px 10px rgba(1, 1, 0, 0.5);
 
-    position: absolute;
+    position: relative;
     width: 6vw;
     /* Ajuste a largura conforme necessário */
-    top: 6vh;
+    top: 0.5vh;
     left: 80vw;
 }
 
@@ -92,13 +93,13 @@ h1 {
 }
 
 #div-balao2 {
-    position: absolute;
+    position: relative;
     left: 89.5vw;
 
-    top: 6.8vh;
+    top: -8vh;
     background-color: rgb(90, 49, 128);
-    width: 3.7vw;
-    height: 3.7vw;
+    width: 4.7vw;
+    aspect-ratio: 1 / 1;
     border-radius: 9vw;
     text-align: center;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
@@ -106,9 +107,9 @@ h1 {
 }
 
 #img-balao {
-    width: 2.3vw;
+    width: 2.9vw;
     position: relative;
-    top: 1.8vh;
+    top: 2.2vh;
 }
 
 
@@ -116,13 +117,13 @@ h1 {
 main {
     border: 0px solid black;
     position: relative;
-    top: -6vh;
+    top: 0vh;
     height: 31vw;
 
 }
 
 #whatsapp1 {
-    position: absolute;
+    position: relative;
     top: -4vh;
     left: 6.5vw;
     font-family: "Oswald", sans-serif;
@@ -152,7 +153,7 @@ main {
 #div-leva-e-traz {
     font-family: "Oswald", sans-serif;
     font-size: 2vw;
-    position: absolute;
+    position: relative;
     border: 0px solid black;
     left: 7vw;
     font-weight: 500;
@@ -166,21 +167,21 @@ main {
 }
 
 #fundocomtv {
-    position: absolute;
-    top:-6vh;
+    position: relative;
+    top:-47vh;
     width: 48vw;
     left: 25vw;
 
 }
 
 h2 {
-    position: absolute;
-    top: 20.1vh;
+    position: relative;
+    top: -7.9vh;
     left: 37.5vw;
     z-index: 9999;
     font-family: "Oswald", sans-serif;
     text-shadow: 0 0 10px #6354ee;
-    font-size: 2.1vw;
+    font-size: 2.2vw;
     color: rgb(206, 204, 202);
     width: 25vw;
     font-weight: 400;
@@ -189,9 +190,10 @@ h2 {
 
 #div-laudos-tecnicos {
     text-align: center;
-    position: absolute;
+    position: relative;
     left: 80vw;
-    top: 4vh;
+    top: -65vh;
+    border:0px solid black;
     font-weight: 700;
     font-size: 2.8vw;
     width: 10vw;
@@ -205,19 +207,20 @@ h2 {
 
 #lupa {
     width: 5vw;
-    position: absolute;
-    left: 73vw;
-    top: 8vh;
+    position: relative;
+    left: 74vw;
+    top: -77vh;
+    border:0px solid black;
 }
 
 footer {
-    position: absolute;
-    top: 61.5vh;
+    position: relative;
+    top: -25.5vh;
     left: 5vw;
     background-color: rgb(209, 209, 209);
     border: 0px solid black;
     width: 90vw;
-    height: 21vw;
+    height: 190vh;
 }
 
 .img-cards {
