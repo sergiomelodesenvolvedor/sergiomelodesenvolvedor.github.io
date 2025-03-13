@@ -1,24 +1,16 @@
+html{
+    height:100%;
+    margin:0px;
+}
 body {
+    height:100%;
     margin: 0px;
     background-repeat: no-repeat;
     background-image: linear-gradient(to bottom, #6185ac, #c4defc, #ffffff);
     overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-#tudo {
-    width: 100vw;
-    height: 100vh;
-
-    overflow: hidden;
-    display: flex;
-    flex-direction: column;
-    /* Organiza os itens em coluna */
-    justify-content: center;
-    /* Centraliza verticalmente */
-
-
-
-}
 
 #div-logo {}
 
@@ -27,7 +19,7 @@ body {
     box-shadow: 0 0 10px rgba(255, 255, 255, 1);
     position: relative;
     left: 47.5vw;
-    top:23vh;
+    top:03vh;
 
 
 }
@@ -38,7 +30,7 @@ h1 {
     color: rgb(3, 3, 83);
     position: relative;
     left: 34.8vw;
-    top: 19vh;
+    top:0vh;
     text-shadow:
         0 0 5px #fff,
         0 0 10px #fff,
@@ -52,7 +44,7 @@ h1 {
     font-size: 2.5vw;
     font-weight: 700;
     left: 39vw;
-    top: 15vh;
+    top: -4vh;
     
     text-shadow:
         0 0 15px #fff,
@@ -68,7 +60,7 @@ h1 {
     position: relative;
     width: 6vw;
     /* Ajuste a largura conforme necessário */
-    top: 0.5vh;
+    top: -17vh;
     left: 80vw;
 }
 
@@ -96,7 +88,7 @@ h1 {
     position: relative;
     left: 89.5vw;
 
-    top: -8vh;
+    top: -25vh;
     background-color: rgb(90, 49, 128);
     width: 4.7vw;
     aspect-ratio: 1 / 1;
@@ -117,26 +109,26 @@ h1 {
 main {
     border: 0px solid black;
     position: relative;
-    top: 0vh;
+    top: -20vh;
     height: 31vw;
 
 }
 
 #whatsapp1 {
     position: relative;
-    top: -4vh;
-    left: 6.5vw;
+    top: -1vh;
+    left: 6vw;
     font-family: "Oswald", sans-serif;
-    font-size: 2.5vw;
+    font-size: 2.3vw;
     color: green;
     font-weight: 700;
     text-shadow:
         0 0 5px #39b807,
 
 }
-
 #icone-whatsapp1 {
     font-size: 3vw;
+
     color: green;
     position: relative;
 
@@ -144,10 +136,10 @@ main {
 }
 
 #carro {
-    width: 26vw;
+    width: 49vh;
     position: relative;
-    left: 4vw;
-    top: 2vh;
+    left: 2vw;
+    top: -4vh;
 }
 
 #div-leva-e-traz {
@@ -168,22 +160,23 @@ main {
 
 #fundocomtv {
     position: relative;
-    top:-47vh;
+    top:-44vh;
     width: 48vw;
+
     left: 25vw;
 
 }
 
 h2 {
     position: relative;
-    top: -7.9vh;
+    top: -6.7vh;
     left: 37.5vw;
     z-index: 9999;
     font-family: "Oswald", sans-serif;
     text-shadow: 0 0 10px #6354ee;
-    font-size: 2.2vw;
+    font-size: calc(1.2vw + 1.2vh);
     color: rgb(206, 204, 202);
-    width: 25vw;
+    width: calc(20vw + 10vh);
     font-weight: 400;
     text-align: center;
 }
@@ -215,12 +208,12 @@ h2 {
 
 footer {
     position: relative;
-    top: -25.5vh;
+    top: -44.5vh;
     left: 5vw;
     background-color: rgb(209, 209, 209);
     border: 0px solid black;
     width: 90vw;
-    height: 190vh;
+    height: 37%;
 }
 
 .img-cards {
