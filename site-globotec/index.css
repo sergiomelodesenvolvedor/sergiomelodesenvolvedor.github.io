@@ -83,12 +83,12 @@ main {
     left: 6vw;
     font-family: "Oswald", sans-serif;
     font-size: 2.3vw;
-    color: green;
+    color: blue;
     font-weight: 700;
     text-shadow:
         0 0 5px #39b807;
-    
-        border:0px solid black;
+
+    border: 0px solid black;
 
 }
 
@@ -125,6 +125,13 @@ main {
         0 0 20px #fff;
 }
 
+#fundo-endereco {
+    position: relative;
+    top: 3.5vh;
+    height: 90%;
+    border: 0px solid black;
+}
+
 #fundocomtv {
     position: relative;
     top: 0vh;
@@ -134,9 +141,9 @@ main {
 
 }
 
-h2 {
+#endereco-1 {
     position: relative;
-    top: 42.47vh;
+    top: 78.47%;
     left: 41.8vw;
     z-index: 9999;
     font-family: "Oswald", sans-serif;
@@ -255,6 +262,6 @@ h3 {
     width: 6.5vw;
 }
 
-#card-img4{
-    width:8vw;
+#card-img4 {
+    width: 8vw;
 }
