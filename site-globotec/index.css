@@ -18,22 +18,20 @@ body {
 #img-globo {
     width: 11vw;
     position: relative;
-    left: -7.5vw;
+    left: -3.9vw;
     float: right;
 
-    top: -5vh;
+    top: 2vh;
     border: 0px solid black;
-
-
 }
 
 h1 {
     font-family: "Oswald", sans-serif;
-    font-size: 3.9vw;
+    font-size: calc(2.9vw + 1.9vh);
     color: rgb(3, 3, 83);
     position: relative;
     left: 31.8vw;
-    top: -5vh;
+    top: -4vh;
     text-shadow:
         0 0 5px #fff,
         0 0 10px #fff,
@@ -46,8 +44,8 @@ h1 {
     font-family: "Oswald", sans-serif;
     font-size: 2.8vw;
     font-weight: 700;
-    left: 40.5vw;
-    top: -11vh;
+    left: 77.5vw;
+    top: -14vh;
 
     text-shadow:
         0 0 15px #fff,
@@ -60,8 +58,8 @@ h1 {
     position: relative;
     font-family: "Oswald", sans-serif;
     font-size: 2vw;
-    left: 82.65vw;
-    top: 8vw;
+    left: 86.65vw;
+    top: 21.5vh;
     text-shadow:
         0 0 5px #fff,
         0 0 0px #fff,
@@ -72,41 +70,57 @@ h1 {
 main {
     border: 0px solid black;
     position: relative;
-    top: -58vh;
+    top: -60vh;
     height: 31vw;
 
 }
 
 #whatsapp1 {
     position: relative;
-    top: 42vh;
+    top: 32vh;
     left: 6vw;
     font-family: "Oswald", sans-serif;
-    font-size: 2.3vw;
-    color: blue;
+    font-size: 2.9vw;
+    color: rgb(1, 1, 26);
     font-weight: 700;
     text-shadow:
-        0 0 5px #39b807;
 
+        0 0 15px #ffffff,
+        0 0 20px #fff;
     border: 0px solid black;
 
 }
 
 
 #icone-whatsapp1 {
-    font-size: 3vw;
+    font-size: 2,3vw;
 
-    color: green;
+    color: rgb(0, 0, 0);
     position: relative;
-
-    top: 0vh;
+    left:0.5vw;
+    top: -2.3vh;
+}
+#carro {
+    width: 30vh;
+    position: relative;
+    left: 5vw;
+    top: 45vh;
 }
 
-#carro {
-    width: 49vh;
-    position: relative;
-    left: 2vw;
-    top: 40vh;
+#texto-sistema-leva-e-traz{
+    position:relative;
+    top:49vh;
+    left:-11.5vw;
+    font-family: "Oswald", sans-serif;
+    font-size: calc(1.3vw + 1.5vh);
+    color:white;
+    text-decoration: underline;
+    letter-spacing: 0.1vw;
+    text-shadow: 
+    -2px -2px 0 black,  
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
 }
 
 #div-leva-e-traz {
@@ -135,22 +149,22 @@ main {
 #fundocomtv {
     position: relative;
     top: 0vh;
-    width: 53vw;
+    width: 60vw;
 
-    left: 26.46vw;
+    left: 21.46vw;
 
 }
 
 #endereco-1 {
     position: relative;
-    top: 78.47%;
-    left: 41.8vw;
+    top: 90%;
+    left: 39.8vw;
     z-index: 9999;
     font-family: "Oswald", sans-serif;
     text-shadow: 0 0 10px #6354ee;
-    font-size: calc(0.9vw + 1vh);
+    font-size: calc(1vw + 1.6vh);
     color: rgb(206, 204, 202);
-    width: calc(20vw + 10vh);
+    width: calc(20vw + 15vh);
     font-weight: 400;
     text-align: center;
 }
@@ -182,7 +196,7 @@ main {
 
 footer {
     position: relative;
-    top: -31vh;
+    top: -32vh;
     left: 5vw;
     background-color: rgb(209, 209, 209);
     border: 0px solid black;
@@ -203,7 +217,7 @@ footer {
     left: 0vw;
     top: 0.4vw;
     width: 16.3vw;
-    height: 20vw;
+    height: 36.5vh;
     margin-left: 1vw;
     text-align: center;
     background-color: white;
@@ -212,7 +226,7 @@ footer {
 
 h3 {
     font-family: "Oswald", sans-serif;
-    font-size: 1.4vw;
+    font-size: calc(1vh + 0.7vw);
     position: relative;
     top: -1vw;
 }
@@ -220,17 +234,15 @@ h3 {
 .card-descricao {
     text-align: justify;
     hyphens: auto;
-    font-size: 1.35vw;
+    font-size: calc(0.8vw + 0.974vh);
     font-family: "Oswald", sans-serif;
     width: 15.5vw;
     position: relative;
     left: 0.4vw;
     top: -2.2vw;
-
 }
 
 #card1 {
-    left: 0.2vw;
 }
 
 #card2 {
@@ -264,4 +276,34 @@ h3 {
 
 #card-img4 {
     width: 8vw;
+}
+
+#h3-1 {
+    position: relative;
+    top: -3%;
+    font-size:  calc(0.7vw + 1.5vh);
+
+}
+
+#h3-2 {}
+
+#h3-3 {}
+
+#h3-4 {
+    
+}
+
+
+#card-descricao-1 {
+    position: relative;
+    top: -10%;
+    font-size: calc(0.8vw + 0.974vh);
+}
+
+#card-descricao-2 {}
+
+#card-descricao-3 {}
+
+#card-descricao-4 {
+   
 }
