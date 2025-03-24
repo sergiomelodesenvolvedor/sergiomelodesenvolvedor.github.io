@@ -1,6 +1,6 @@
 html,
 body {
-    background-color: rgb(29, 29, 29);
+    background-color: rgb(78, 78, 78);
     height: 100%;
     overflow-x: hidden;
     margin: 0px;
@@ -105,7 +105,7 @@ h1 {
     text-align: center;
     font-family: "Montserrat", Sans-serif;
     color: white;
-    font-size:8vw;
+    font-size: 8vw;
 }
 
 #orcamento-rapido {
@@ -148,7 +148,7 @@ h1 {
     top: 130vw;
     left: 4vw;
     border: 0vw solid black;
-    color:white
+    color: white
 }
 
 
@@ -156,60 +156,72 @@ h1 {
     width: 80vw;
     background-color: black;
     border-radius: 2vw;
-    
-    position:relative;
-    margin-top: 20vw;;
-    left:10vw;
-    top:130vw;
+
+    position: relative;
+    margin-top: 20vw;
+    ;
+    left: 10vw;
+    top: 130vw;
     height: 95vw;
-    border:0px solid rgb(219, 219, 219);
-    
+    border: 0px solid rgb(219, 219, 219);
+
 }
 
-#img-servico-1{
-    width:50vw;
-    
-    position:relative;
-    left:14vw;
-    top:3vw;
-    border:0px solid rgb(0, 179, 140);
-    }
+#img-servico-1 {
+    width: 50vw;
 
-    #img-servico-2{
-        width:50vw;
-    
-        position:relative;
-        left:14vw;
-        top:3vw;
-        border:0px solid rgb(0, 179, 140);
-    }
+    position: relative;
+    left: 14vw;
+    top: 3vw;
+    border: 0px solid rgb(0, 179, 140);
+}
 
-h3{
+#img-servico-2 {
+    width: 50vw;
+
+    position: relative;
+    left: 14vw;
+    top: 3vw;
+    border: 0px solid rgb(0, 179, 140);
+}
+
+#img-servico-3{
+    width:15vw;
+    position: relative;
+    left: 34vw;
+    top: 3vw;
+    border: 0px solid rgb(0, 179, 140);
+}
+
+h3 {
     font-family: "Montserrat", Sans-serif;
-    font-size:8vw;
+    font-size: 8vw;
     font-weight: 500;
-    position:relative;
-    color:white;
-    left:7.5vw;
+    position: relative;
+    color: white;
+    left: 7.5vw;
 }
 
-.descricao-servicos{
-    line-height: 10vw;;
+.descricao-servicos {
+    line-height: 10vw;
+    ;
     font-family: "Montserrat", Sans-serif;
-    font-size:6vw;
+    font-size: 6vw;
     font-weight: 100;
-    position:relative;
+    position: relative;
     word-spacing: -1px;
-    left:5vw;
-    width:70vw;
+    left: 5vw;
+    width: 70vw;
     text-align: justify;
     hyphens: auto;
-    color:white
-    
-
+    color: white
 }
 
 
-#card-2-serviços{
-    height:150vw;
+#card-2-serviços {
+    height: 150vw;
+}
+
+#card-3-serviços{
+    height:160vw;
 }
