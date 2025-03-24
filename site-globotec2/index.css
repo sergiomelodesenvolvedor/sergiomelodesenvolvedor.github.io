@@ -5,6 +5,17 @@ body {
     overflow-x: hidden;
     margin: 0px;
 }
+#icone-whatsapp{
+    position:fixed;
+    z-index: 9999;
+    font-size:15vw;
+    left:83%;
+    top:85%;
+    
+    
+    border:0px solid black;
+    color: rgb(0, 245, 0);
+}
 
 header {
     position: fixed;
