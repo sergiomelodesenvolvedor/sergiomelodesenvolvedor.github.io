@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DiSu Eventos</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap"
+        rel="stylesheet">
+    <style>
+        :root {
+            --cor-fundo: #f7f0e9;
+            --cor-marrom: #5d3a2d;
+            --cor-bege: #e6d6c7;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Open Sans', sans-serif;
+            background-color: var(--cor-fundo);
+            color: #4a3b36;
+            scroll-behavior: smooth;
+        }
+
+        header {
+
+            background-color: var(--cor-fundo);
+            padding: 0.5rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            background-image: url('logo.png');
+            /* Substitua aqui */
+            background-size: cover;
+            background-position: center;
+            border-radius: 50%;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 1rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: var(--cor-marrom);
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        nav a:hover {
+            color: #b07d5f;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        #menu li {
+            font-size: 1.7vw;
+            margin: 1.2vw;
+        }
+
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 1.6rem;
+            color: var(--cor-marrom);
+            margin-bottom: 0.5rem;
+        }
+
+        section {
+            padding: 2rem 1rem;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        h2 {
+            background-color: var(--cor-marrom);
+            color: white;
+            padding: 0.5rem 1rem;
+            display: inline-block;
+            font-family: 'Playfair Display', serif;
+            margin-bottom: 1rem;
+        }
+
+        .section-content {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+
+        .produtos-imgs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .produtos-imgs img {
+            width: 18vw;
+            height:18vw;
+            max-width: 300px;
+            border-radius: 8px;
+            transition: transform 0.4s ease;
+            cursor: zoom-in;
+        }
+
+        .produtos-imgs img:hover {
+            transform: scale(1.6);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            font-size: 0.9rem;
+            background-color: var(--cor-marrom);
+            color: white;
+            margin-top: 3rem;
+        }
+
+        /* Menu responsivo (mobile) */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            cursor: pointer;
+        }
+
+        .bar {
+            height: 3px;
+            width: 25px;
+            background-color: var(--cor-marrom);
+            margin: 4px 0;
+            transition: 0.4s;
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                display: none;
+                flex-direction: column;
+                background-color: var(--cor-fundo);
+                position: absolute;
+                top: 70px;
+                right: 0;
+                width: 200px;
+                padding: 1rem;
+                border: 1px solid #ccc;
+            }
+
+            nav ul.active {
+                display: flex;
+            }
+
+            .menu-toggle {
+                display: flex;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo"></div>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#quem-somos">Quem Somos</a></li>
+                <li><a href="#nossos-produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>A verdadeira experiência gastronômica em seus eventos</h1>
+    </section>
+
+    <section id="quem-somos">
+        <h2>QUEM SOMOS</h2>
+        <div class="section-content">
+            <p>Nascemos para transformar momentos de alegria e comemoração em cardápios saborosos e únicos.</p>
+            <p>Nossa missão é levar amor em formato de alimento, proporcionando aos clientes a melhor experiência em
+                suas festas, criando memórias afetivas através da gastronomia.</p>
+            <p><strong>Especialistas em Coffee Breaks e Coquetéis.</strong></p>
+        </div>
+    </section>
+
+    <section id="nossos-produtos">
+        <h2>NOSSOS PRODUTOS</h2>
+        <div class="section-content">
+            <p>Grande parte do nosso cardápio é feita de forma artesanal, como os pães, acompanhamentos e sucos, o que
+                garante mais qualidade e sabor.</p>
+            <div class="produtos-imgs">
+                <img src="comida1.png" alt="Produtos DiSu Eventos">
+                <img src="comida2.png" alt="Buffet artesanal">
+                <img src="comida3.png" alt="Produtos DiSu Eventos">
+                <img src="comida4.png" alt="Buffet artesanal">
+                <img src="comida5.png" alt="Produtos DiSu Eventos">
+                <img src="comida6.png" alt="Buffet artesanal">
+                <img src="comida7.png" alt="Produtos DiSu Eventos">
+                <img src="comida8.png" alt="Buffet artesanal">
+                <img src="comida9.png" alt="Produtos DiSu Eventos">
+                <img src="comida10.png" alt="Buffet artesanal">
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>CONTATO</h2>
+        <div class="section-content">
+            <p>Entre em contato conosco para orçamentos personalizados e agendamento de eventos.</p>
+            <p><strong>Email:</strong> contato@disueventos.com.br</p>
+            <p><strong>WhatsApp:</strong> (11) 91234-5678</p>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 DiSu Eventos • Amor em forma de comida
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const menu = document.getElementById('menu');
+            menu.classList.toggle('active');
+        }
+    </script>
+
+</body>
+
+</html>
