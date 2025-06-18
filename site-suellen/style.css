@@ -124,6 +124,7 @@ footer {
     display: none;
     flex-direction: column;
     cursor: pointer;
+    border:0px
 }
 
 .bar {
