@@ -2,85 +2,95 @@
 <html lang="pt-br">
 
 <head>
-    <script src="script.js" defer></script>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>DiSu Eventos</title>
+    <title>DiSu Eventos | Coffee Break, Coquetéis e Buffet Artesanal em São Paulo</title>
+    <meta name="description" content="Buffet artesanal para eventos em São Paulo. Coffee Break, Coquetéis, pães e acompanhamentos feitos com amor. Solicite orçamento para seu evento corporativo ou social.">
+    <meta name="keywords" content="buffet, eventos, coffee break, coquetel, artesanal, São Paulo, festa, comida, catering, DiSu Eventos">
+    <meta name="author" content="DiSu Eventos">
+    <link rel="canonical" href="https://www.seusite.com.br/">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <header>
-        <div class="logo"></div>
-        <div class="menu-toggle" onclick="toggleMenu()">
-            <div class="bar"></div>
-            <div class="bar"></div>
-            <div class="bar"></div>
-        </div>
-        <nav>
+        <div class="logo" aria-label="Logo DiSu Eventos"></div>
+        <button class="menu-toggle" aria-label="Abrir menu" onclick="toggleMenu()">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+        <nav aria-label="Menu principal">
             <ul id="menu">
-                <button id="close-menu" aria-label="Fechar menu" style="display:none;">&#10005;</button>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#quem-somos">Quem Somos</a></li>
                 <li><a href="#nossos-produtos">Produtos</a></li>
                 <li><a href="#contato">Contato</a></li>
             </ul>
+            <button id="close-menu" aria-label="Fechar menu" style="display:none;">&#10005;</button>
         </nav>
     </header>
 
-    <section class="hero" id="home">
-        <h1>A verdadeira experiência gastronômica em seus eventos</h1>
-    </section>
+    <main>
+        <section class="hero" id="home">
+            <h1>Coffee Break, Coquetéis e Buffet Artesanal em São Paulo</h1>
+            <p>Transforme seu evento em uma experiência gastronômica inesquecível com a DiSu Eventos.</p>
+        </section>
 
-    <section id="quem-somos">
-        <h2>QUEM SOMOS</h2>
-        <div class="section-content">
-            <p>Nascemos para transformar momentos de alegria e comemoração em cardápios saborosos e únicos.</p>
-            <p>Nossa missão é levar amor em formato de alimento, proporcionando aos clientes a melhor experiência em
-                suas festas, criando memórias afetivas através da gastronomia.</p>
-            <p><strong>Especialistas em Coffee Breaks e Coquetéis.</strong></p>
-        </div>
-    </section>
-
-    <section id="nossos-produtos">
-        <h2>NOSSOS PRODUTOS</h2>
-        <div class="section-content">
-            <p>Grande parte do nosso cardápio é feita de forma artesanal, como os pães, acompanhamentos e sucos, o que
-                garante mais qualidade e sabor.</p>
-            <div class="produtos-imgs">
-                <img src="comida1.png" alt="Produtos DiSu Eventos">
-                <img src="comida2.png" alt="Buffet artesanal">
-                <img src="comida3.png" alt="Produtos DiSu Eventos">
-                <img src="comida4.png" alt="Buffet artesanal">
-                <img src="comida5.png" alt="Produtos DiSu Eventos">
-                <img src="comida6.png" alt="Buffet artesanal">
-                <img src="comida7.png" alt="Produtos DiSu Eventos">
-                <img src="comida8.png" alt="Buffet artesanal">
-                <img src="comida9.png" alt="Produtos DiSu Eventos">
-                <img src="comida10.png" alt="Buffet artesanal">
+        <section id="quem-somos">
+            <h2>Quem Somos</h2>
+            <div class="section-content">
+                <p>A <strong>DiSu Eventos</strong> nasceu para transformar momentos de alegria e comemoração em cardápios saborosos e únicos.</p>
+                <p>Nossa missão é levar amor em formato de alimento, proporcionando aos clientes a melhor experiência em suas festas, criando memórias afetivas através da gastronomia.</p>
+                <p><strong>Especialistas em Coffee Breaks e Coquetéis para eventos corporativos e sociais.</strong></p>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="contato">
-        <h2>CONTATO</h2>
-        <div class="section-content">
-            <p>Entre em contato conosco para orçamentos personalizados e agendamento de eventos.</p>
-            <p><strong>Email:</strong> contato@disueventos.com.br</p>
-            <p><strong>WhatsApp:</strong> (11) 91234-5678</p>
-        </div>
-    </section>
+        <section id="nossos-produtos">
+            <h2>Nossos Produtos</h2>
+            <div class="section-content">
+                <p>Grande parte do nosso cardápio é feita de forma artesanal, como os pães, acompanhamentos e sucos, garantindo mais qualidade e sabor para seu evento.</p>
+                <div class="produtos-imgs">
+                    <img src="comida1.png" alt="Mesa de coffee break artesanal DiSu Eventos">
+                    <img src="comida2.png" alt="Buffet artesanal para eventos">
+                    <img src="comida3.png" alt="Variedade de pães artesanais">
+                    <img src="comida4.png" alt="Coquetel para festas">
+                    <img src="comida5.png" alt="Doces e salgados para eventos">
+                    <img src="comida6.png" alt="Sucos naturais e acompanhamentos">
+                    <img src="comida7.png" alt="Coffee break corporativo">
+                    <img src="comida8.png" alt="Buffet personalizado para eventos">
+                    <img src="comida9.png" alt="Mesa de frios e pães artesanais">
+                    <img src="comida10.png" alt="Buffet completo para festas">
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <div class="section-content">
+                <p>Entre em contato conosco para orçamentos personalizados e agendamento de eventos.</p>
+                <ul>
+                    <li><strong>Email:</strong> <a href="mailto:contato@disueventos.com.br">contato@disueventos.com.br</a></li>
+                    <li><strong>WhatsApp:</strong> <a href="https://wa.me/5511912345678" target="_blank" rel="noopener"> (11) 91234-5678</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
 
     <footer>
-        © 2025 DiSu Eventos • Amor em forma de comida
+        <p>© 2025 DiSu Eventos • Amor em forma de comida</p>
+        <nav aria-label="Redes sociais">
+            <a href="https://www.instagram.com/seuusuario" target="_blank" rel="noopener" aria-label="Instagram DiSu Eventos">Instagram</a>
+            <!-- Adicione outras redes se quiser -->
+        </nav>
     </footer>
-    <div id="img-overlay">
-        <span id="close-overlay">&times;</span>
-        <img id="overlay-img" src="" alt="Imagem ampliada">
+    <div id="img-overlay" aria-modal="true" role="dialog">
+        <span id="close-overlay" aria-label="Fechar imagem ampliada">&times;</span>
+        <img id="overlay-img" src="" alt="Imagem ampliada dos produtos DiSu Eventos">
     </div>
-    
 </body>
-
 </html>
