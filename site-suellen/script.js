@@ -35,3 +35,34 @@ document.addEventListener('click', function (e) {
         document.body.style.overflow = '';
     }
 });
+
+
+
+function toggleMenu() {
+    const menu = document.getElementById('menu');
+    menu.classList.toggle('active');
+}
+
+// Zoom nas imagens dos produtos
+document.querySelectorAll('.produtos-imgs img').forEach(img => {
+    img.addEventListener('click', function () {
+        const overlay = document.getElementById('img-overlay');
+        const overlayImg = document.getElementById('overlay-img');
+        overlayImg.src = this.src;
+        overlay.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    });
+});
+
+document.getElementById('close-overlay').onclick = function () {
+    document.getElementById('img-overlay').classList.remove('active');
+    document.body.style.overflow = '';
+};
+
+// Fecha overlay ao clicar fora da imagem
+document.getElementById('img-overlay').addEventListener('click', function (e) {
+    if (e.target === this) {
+        this.classList.remove('active');
+        document.body.style.overflow = '';
+    }
+});

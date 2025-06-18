@@ -21,7 +21,7 @@
         </div>
         <nav>
             <ul id="menu">
-                 <button id="close-menu" aria-label="Fechar menu" style="display:none;">&#10005;</button>
+                <button id="close-menu" aria-label="Fechar menu" style="display:none;">&#10005;</button>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#quem-somos">Quem Somos</a></li>
                 <li><a href="#nossos-produtos">Produtos</a></li>
@@ -76,12 +76,11 @@
     <footer>
         © 2025 DiSu Eventos • Amor em forma de comida
     </footer>
-
-    <script>
-        function toggleMenu() {
-            const menu = document.getElementById('menu');
-            menu.classList.toggle('active');
-        }
-    </script>
+    <div id="img-overlay">
+        <span id="close-overlay">&times;</span>
+        <img id="overlay-img" src="" alt="Imagem ampliada">
+    </div>
+    
 </body>
+
 </html>

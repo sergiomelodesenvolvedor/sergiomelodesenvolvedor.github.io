@@ -102,16 +102,13 @@ h2 {
 
 .produtos-imgs img {
     width: 18vw;
-    height:18vw;
+    height: 18vw;
     max-width: 300px;
     border-radius: 8px;
-    transition: transform 0.4s ease;
     cursor: zoom-in;
 }
 
-.produtos-imgs img:hover {
-    transform: scale(1.6);
-}
+.produtos-imgs img:hover {}
 
 footer {
     text-align: center;
@@ -151,7 +148,56 @@ footer {
     display: none;
 }
 
+#img-overlay {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(30, 20, 10, 0.85);
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#img-overlay.active {
+    display: flex;
+}
+
+#img-overlay img {
+    width: 30vw;
+    max-width: 90vw;
+    max-height: 80vh;
+    border-radius: 12px;
+    box-shadow: 0 0 30px #000a;
+}
+
+#close-overlay {
+    position: absolute;
+    top: 30px;
+    right: 50px;
+    font-size: 3rem;
+    color: #fff;
+    cursor: pointer;
+    z-index: 2100;
+    font-weight: bold;
+    background: none;
+    border: none;
+    line-height: 1;
+    transition: color 0.2s;
+}
+
+#close-overlay:hover {
+    color: #ffb3b3;
+}
+
 @media (max-width: 768px) {
+    #img-overlay img {
+        width: 70vw;
+    }
+
     nav ul {
         display: none;
         flex-direction: column;
@@ -162,12 +208,14 @@ footer {
         width: 200px;
         padding: 1rem;
         border: 1px solid #ccc;
-        
+
     }
+
     nav ul li a {
         font-size: 1.2rem;
         margin: 0.5rem 0;
     }
+
     nav ul.active {
         display: flex;
     }
