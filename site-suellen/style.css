@@ -193,6 +193,16 @@ footer {
     color: #ffb3b3;
 }
 
+
+ul li a{
+    text-decoration: none;
+    color: var(--cor-marrom);
+}
+
+#contato-info li{
+    list-style:none
+
+}
 @media (max-width: 768px) {
     #img-overlay img {
         width: 70vw;
