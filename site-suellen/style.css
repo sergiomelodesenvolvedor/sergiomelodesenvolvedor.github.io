@@ -66,6 +66,7 @@ nav a:hover {
     margin: 1.2vw;
 }
 
+
 .hero h1 {
     font-family: 'Playfair Display', serif;
     font-size: 1.6rem;
@@ -74,9 +75,10 @@ nav a:hover {
 }
 
 section {
-    padding: 2rem 1rem;
+     padding: 2rem 1rem;
     max-width: 1000px;
     margin: auto;
+    scroll-margin-top: 170px; /* ajuste conforme a altura do seu header */
 }
 
 h2 {
@@ -233,6 +235,10 @@ ul li a{
 
     .menu-toggle {
         display: flex;
+    }
+
+     section {
+        scroll-margin-top: 140px; /* aumente até o h2 ficar totalmente visível */
     }
 
     #close-menu {
