@@ -1,0 +1,30 @@
+# Input: CSV file with columns [Title, Description, Commission, Score, Popularity]
+
+1. Load the CSV file containing product data.
+   For each row:
+       - product['title']
+       - product['description']
+       - product['commission']
+       - product['score']
+       - product['popularity']
+
+2. For each product description:
+   - Send the description to the OpenAI API (ChatGPT)
+   - Receive ~15 keyword suggestions with sales potential
+   - Store the keywords linked to the corresponding product
+
+3. For each batch of keywords:
+   - Submit the batch to the Google Ads API (Keyword Planner)
+   - Retrieve data: search volume, CPC estimates, competition level
+
+4. For each product:
+   - Analyze keyword metrics (high volume, good CPC, low competition)
+   - Optionally, calculate a sales potential score (e.g., weighted average)
+
+5. Display ranked products based on sales potential
+
+6. Manually select the most promising products and keywords
+
+7. Launch real paid campaigns using Google Ads with the selected products
+
+# Output: prioritized list of products + campaigns launched manually in Google Ads
