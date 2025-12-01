@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Pixel Art Pro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1 id="title">Pixel Art Pro</h1>
+    <button id="toggle-theme">🌙 Modo Escuro</button>
+</header>
+
+<section class="controls">
+
+    <div class="palette-section">
+        <h3>Paleta de Cores</h3>
+        <div id="color-palette"></div>
+
+        <input type="color" id="colorPicker">
+        <button id="addColor">Adicionar Cor</button>
+    </div>
+
+    <div class="board-controls">
+        <h3>Tamanho do Quadro</h3>
+        <input type="number" id="board-size" placeholder="Ex: 16" min="5" max="100">
+        <button id="generate-board">Gerar</button>
+        <button id="clear-board">Limpar</button>
+    </div>
+
+</section>
+
+<div id="pixel-board"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
