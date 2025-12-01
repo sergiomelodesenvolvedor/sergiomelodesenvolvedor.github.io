@@ -78,7 +78,7 @@ const projectsData = {
     {
       title: "Habit Tracker",
       description: "HabitFlow é um rastreador de hábitos simples e intuitivo que ajuda você a criar disciplina, acompanhar progresso diário e transformar pequenas ações em conquistas duradouras.",
-      image: "habit-Tracker.png",
+      image: "./Habit-Tracker.png",
       link: "./habit-tracker/index.html",
       technologies: ["HTML5", "JavaScript", "LocalStorage API", "UI/UX Básico", "Design Responsivo"]
     }
