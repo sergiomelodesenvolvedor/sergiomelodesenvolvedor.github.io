@@ -1,0 +1,42 @@
+### Node & build artifacts
+# Esta linha já ignora QUALQUER pasta chamada node_modules em qualquer nível
+node_modules/
+# (Opcional redundância se quiser deixar explícito – não é obrigatório)
+**/node_modules/
+
+### Ambiente / segredos
+.env
+.env.*
+
+### Bundles / builds
+dist/
+build/
+out/
+
+### Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+### Sistemas operacionais / editor
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+### Coverage / testes
+coverage/
+/.nyc_output
+
+### Cache de ferramentas
+.turbo
+.parcel-cache
+.next/
+.cache/
+
+### Dependência lock (remova se quiser versionar)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

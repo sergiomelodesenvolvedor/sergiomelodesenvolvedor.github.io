@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevShop - Logo Preview</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+            max-width: 800px;
+        }
+        
+        h1 {
+            color: #333;
+            margin-bottom: 30px;
+        }
+        
+        .logo-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        
+        .logo-item {
+            padding: 20px;
+            border-radius: 12px;
+            transition: transform 0.3s ease;
+        }
+        
+        .logo-item:hover {
+            transform: translateY(-5px);
+        }
+        
+        .logo-item.dark {
+            background: #1a1a1a;
+        }
+        
+        .logo-item.light {
+            background: #f5f5f5;
+        }
+        
+        .logo-item.colored {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        
+        .logo-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        .size-label {
+            margin-top: 10px;
+            font-size: 14px;
+            color: #666;
+            font-weight: 600;
+        }
+        
+        .instructions {
+            margin-top: 40px;
+            padding: 20px;
+            background: #f0f4ff;
+            border-radius: 12px;
+            border-left: 4px solid #6366f1;
+            text-align: left;
+        }
+        
+        .instructions h3 {
+            margin-top: 0;
+            color: #6366f1;
+        }
+        
+        .instructions code {
+            background: #e0e7ff;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-family: 'Courier New', monospace;
+            color: #4f46e5;
+        }
+        
+        .instructions ol {
+            line-height: 1.8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎨 DevShop - Logo Preview</h1>
+        
+        <div class="logo-grid">
+            <div class="logo-item light">
+                <img src="logo.svg" alt="DevShop Logo">
+                <div class="size-label">Fundo Claro</div>
+            </div>
+            
+            <div class="logo-item dark">
+                <img src="logo.svg" alt="DevShop Logo">
+                <div class="size-label">Fundo Escuro</div>
+            </div>
+            
+            <div class="logo-item colored">
+                <img src="logo.svg" alt="DevShop Logo">
+                <div class="size-label">Fundo Colorido</div>
+            </div>
+        </div>
+        
+        <div class="instructions">
+            <h3>📸 Como converter SVG para WebP:</h3>
+            <ol>
+                <li>Abra <code>logo.svg</code> no navegador (Chrome/Edge)</li>
+                <li>Clique com botão direito → "Inspecionar"</li>
+                <li>No DevTools, clique nos 3 pontos → "Capture node screenshot"</li>
+                <li>Ou use uma ferramenta online:
+                    <ul>
+                        <li><a href="https://cloudconvert.com/svg-to-webp" target="_blank">CloudConvert</a></li>
+                        <li><a href="https://convertio.co/svg-webp/" target="_blank">Convertio</a></li>
+                    </ul>
+                </li>
+                <li>Salve como <code>logo.webp</code> (recomendado: 512x512px ou 1024x1024px)</li>
+            </ol>
+            
+            <h3>💡 Alternativa com comando (se tiver ImageMagick instalado):</h3>
+            <code>magick logo.svg -resize 512x512 logo.webp</code>
+        </div>
+    </div>
+</body>
+</html>

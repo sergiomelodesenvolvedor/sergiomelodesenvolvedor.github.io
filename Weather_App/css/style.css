@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: "Segoe UI", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #8ac6ff, #368bff);
+  transition: background 0.5s ease;
+}
+
+.container {
+  width: 350px;
+  padding: 25px;
+  border-radius: 20px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.2);
+  text-align: center;
+  color: #fff;
+  animation: fadeIn 0.8s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+input {
+  width: 85%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+button {
+  width: 90%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  background: rgba(255,255,255,0.2);
+  color: white;
+  backdrop-filter: blur(10px);
+  transition: 0.2s;
+}
+button:hover { background: rgba(255,255,255,0.35); }
+
+.temp {
+  font-size: 60px;
+  font-weight: bold;
+  margin: 15px 0 5px 0;
+}
+
+.condition {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.hourly {
+  margin-top: 20px;
+  display: flex;
+  overflow-x: auto;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+
+.hour-card {
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(8px);
+  padding: 10px;
+  border-radius: 12px;
+  min-width: 70px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.icon {
+  font-size: 45px;
+  margin-top: 10px;
+  animation: pop 0.6s ease;
+}
+
+@keyframes pop {
+  from { transform: scale(0.7); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}

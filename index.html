@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sérgio Melo - Desenvolvedor</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Rubik+Burned&family=Agbalumo&family=Bebas+Neue&family=Honk&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Tela de carregamento -->
+  <div id="loading-screen" class="loading-screen">
+    <div class="logo-container">
+      <object type="image/svg+xml" data="assets/logo-light.svg" class="logo-animation"></object>
+    </div>
+    <div class="loading-text">Sérgio Melo Desenvolvedor</div>
+    <div class="spinner">
+      <div class="bounce1"></div>
+      <div class="bounce2"></div>
+      <div class="bounce3"></div>
+    </div>
+  </div>
+
+  <!-- Conteúdo principal -->
+  <div id="main-content">
+    <!-- Header -->
+    <header class="main-header">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center w-100">
+          <a href="#" class="logo-link">
+            <object type="image/svg+xml" data="assets/logo.svg" class="logo"></object>
+          </a>
+
+          <div class="header-center d-flex align-items-center">
+            <nav class="desktop-nav me-3">
+              <a href="#about" class="nav-link">Sobre mim</a>
+              <a href="#projects" class="nav-link">Meus projetos</a>
+              <a href="#contact" class="nav-link">Contate-me</a>
+              <a href="#footer" class="nav-link">Rodapé</a>
+            </nav>
+
+          </div>
+
+          <div class="header-right d-flex align-items-center">
+            <div class="header-socials d-none d-md-flex me-3">
+              <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+              <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+
+            <button class="menu-toggle" id="menuToggle">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Menu móvel -->
+    <div class="mobile-menu" id="mobileMenu">
+      <button class="close-menu" id="closeMenu">
+        <i class="fas fa-times"></i>
+      </button>
+      <ul class="mobile-nav">
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#projects">Meus projetos</a></li>
+        <li><a href="#contact">Contate-me</a></li>
+        <li><a href="#footer">Rodapé</a></li>
+      </ul>
+    </div>
+
+    <!-- Seção Hero com letras animadas -->
+    <section class="hero-section" id="about">
+      <div class="background-animation">
+        <div class="floating-letters">
+          <object type="image/svg+xml" data="assets/letra-s.svg" class="floating-letter letter-s" aria-hidden="true"></object>
+          <object type="image/svg+xml" data="assets/letra-m.svg" class="floating-letter letter-m" aria-hidden="true"></object>
+          <object type="image/svg+xml" data="assets/letra-d.svg" class="floating-letter letter-d" aria-hidden="true"></object>
+        </div>
+      </div>
+        <img src="./assets/avatar-prof.svg" alt="Avatar minimal com iniciais smd" class="profile-image">
+      <h1 class="hero-title">Sérgio Nogueira</h1>
+      <h2 class="hero-subtitle">Desenvolvedor Web Full Stack</h2>
+      <p class="hero-description">Apaixonado por tecnologia e inovação</p>
+    </section>
+
+    <!-- Seção Projetos -->
+    <section class="projects-section" id="projects">
+      <h2 class="section-title">Meus Projetos</h2>
+      
+      <div class="project-category">
+        <h3 class="category-title">Front-End</h3>
+        <p class="category-description">Aqui estão alguns dos meus projetos em Front-End.</p>
+        <div class="project-grid" id="frontend-projects">
+          <!-- Projetos serão inseridos via JavaScript -->
+        </div>
+      </div>
+      
+      <div class="project-category">
+        <h3 class="category-title">Back-End</h3>
+        <p class="category-description">Aqui estão alguns dos meus projetos em Back-End.</p>
+        <div class="project-grid" id="backend-projects">
+          <!-- Projetos serão inseridos via JavaScript -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section class="contact-section" id="contact">
+      <h2 class="section-title">Envie-me uma mensagem...</h2>
+      <form class="contact-form" id="contactForm">
+        <div class="form-group">
+          <input type="text" class="form-control" id="inputNome" placeholder="Nome Completo" required>
+        </div>
+        <div class="form-group">
+          <input type="email" class="form-control" id="inputEmail" placeholder="E-mail" required>
+        </div>
+        <div class="form-group">
+          <textarea class="form-control" id="text-area-mensagem" placeholder="Digite sua mensagem..." required></textarea>
+        </div>
+        <button type="submit" class="submit-btn" id="buttonEnviarMensagem">Enviar mensagem</button>
+      </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 footer-section">
+            <object type="image/svg+xml" data="assets/logo-rodape.svg" class="footer-logo"></object>
+            <p class="footer-contact-title">Envie-me uma mensagem:</p>
+            <p class="footer-email">sergiomelo.desenvolvedor@gmail.com</p>
+            <p class="footer-phone">(11) 9 6529-9326</p>
+          </div>
+          
+          <div class="col-md-4 footer-section">
+            <h4 class="footer-title">Links Rápidos</h4>
+            <ul class="footer-links">
+              <li><a href="#about">Home</a></li>
+              <li><a href="#about">Sobre mim</a></li>
+              <li><a href="#projects">Meus trabalhos</a></li>
+              <li><a href="#contact">Contato</a></li>
+            </ul>
+          </div>
+          
+          <div class="col-md-4 footer-section">
+            <h4 class="footer-title">Redes Sociais</h4>
+            <ul class="footer-links">
+              <li><a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+              <li><a href="#"><i class="fab fa-github"></i> GitHub</a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i> Instagram</a></li>
+            </ul>
+          </div>
+        </div>
+        
+        <div class="footer-divider"></div>
+        
+        <div class="copyright">
+          <p>© Sérgio Melo</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="loading.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+  <script></script>
+  <script src="indexCarregado.js"></script>
+</body>
+</html>

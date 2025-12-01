@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Meus Pedidos - DevShop</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/pedidos.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <div class="logo">
+        <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="40" height="40" rx="8" fill="url(#gradient)"/>
+          <path d="M12 15L20 10L28 15V25L20 30L12 25V15Z" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M12 15L20 20L28 15" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M20 20V30" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+          <defs>
+            <linearGradient id="gradient" x1="0" y1="0" x2="40" y2="40" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#6366f1"/>
+              <stop offset="1" stop-color="#8b5cf6"/>
+            </linearGradient>
+          </defs>
+        </svg>
+        <h1>DevShop</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="carrinho.html">Carrinho</a>
+        <a href="pedidos.html">Pedidos</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Meus Pedidos</h2>
+    <div id="pedidos-list"></div>
+  </main>
+
+  <script src="js/api.js"></script>
+  <script src="js/pedidos.js"></script>
+</body>
+</html>

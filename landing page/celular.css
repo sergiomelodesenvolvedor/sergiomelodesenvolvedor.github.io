@@ -1,0 +1,2679 @@
+@media (max-width:424px) {
+
+    body {
+        margin: 0px;
+
+    }
+
+    #header {
+        
+        z-index: 9999;
+        position: fixed;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 35vw;
+
+    }
+
+    #logo {
+        width: 60vw;
+        position: relative;
+        top: 12vw;
+    }
+
+    #icone-humburger {
+        font-size: 10vw;
+        position: relative;
+        left: 27vw;
+        top: 8vw;
+        color: #3b3b3b;
+        border: 0vw solid black;
+        transition: opacity 0.5s ease;
+    }
+
+    #main {
+        position: relative;
+        top: 30vw;
+        width: 100vw;
+
+    }
+
+    #fundo-meio {
+        background-image: url('fundo-meio2.jpeg');
+        background-size: 130vw 130vw;
+        background-position: 0vw;
+
+        position: relative;
+        top: 8vw;
+        border: 0px solid black;
+        width: 100%;
+        height: 100vw;
+
+    }
+
+    #fundo-meio-preto {
+        background-color: black;
+        position: absolute;
+        top: 0vw;
+        width: 100%;
+        height: 100vw;
+        opacity: 0.6
+    }
+
+    #servicos-oferecidos {
+        position: absolute;
+
+        background-size: 200vw;
+        border: 0px solid black;
+        width: 100vw;
+        height: 90vw;
+    }
+
+    #compliance-ambiental-title {
+        font-family: "Manrope", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 9.8vw;
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+        width: 90vw;
+    }
+
+    #compliance-title {
+        color: #04e71a
+    }
+
+    #pai-fale-conosoco-whatsapp1 {
+        position: relative;
+        top: -6vw;
+        width: 100%;
+        border: 0px solid black;
+
+    }
+
+    #fale-conosco-whatsapp1 {
+        width: 60vw;
+        height: 10vw;
+        border-radius: 2vw;
+        position: relative;
+        left: 25%;
+        top: 0vw;
+        color: white;
+        font-size: 4.5vw;
+        font-family: "Manrope", sans-serif;
+
+
+        background-color: rgb(30, 104, 0);
+
+    }
+
+    #solicite-orcamento-texto {
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+
+    }
+
+    #whatsapp-icon1 {
+        position: relative;
+        left: 7%;
+        top: 1.2vw;
+        font-size: 7vw;
+        background: linear-gradient(135deg, #3df106, #02fc5e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #servicos {
+        
+        position: relative;
+        top: 20vw;
+        width: 100vw;
+
+        border: 00px solid black;
+        text-align: center;
+    }
+
+    #servicos-oferecidos-title {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8.5vw;
+    }
+
+    #pai-servico-ambiental {
+        
+        position: relative;
+        transition:top 0.2s ease;
+        top: 90vw;
+        left: 1.2vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-ambiental {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-folha {
+        width: 14vw;
+    }
+
+    #h1-compliance-ambiental {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-ambiental {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-saude {
+        position: relative;
+        top: 80vw;
+        left: 1.2vw;
+        transition:top 0.2s ease;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-saude {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-coracao {
+        width: 19vw;
+    }
+
+    #h1-compliance-saude {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-saude {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-seguranca {
+
+        position: relative;
+        top: 90vw;
+        left: 1.2vw;
+        transition:top 0.2s ease;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-seguranca {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-chapeu {
+        width: 19vw;
+    }
+
+    #h1-compliance-chapeu {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-chapeu {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-nescessidade {
+        
+        background-color: #026C0D;
+        height: 205vw;
+        width: 100vw;
+        position: relative;
+        top: 80vw;
+        filter:blur(5px);
+        
+
+    }
+
+    #title-nescessidade {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8Vw;
+        font-weight: 500;
+        position: relative;
+        top: 6vw;
+        left: 3vw;
+        width: 95vw;
+        border: 0px solid black
+    }
+
+    #texto-nescessidade {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: white;
+        width: 90vw;
+        text-align: justify;
+        hyphens: auto;
+        position: relative;
+        left: 3vw;
+        top: 4vw;
+        width: 80vw;
+    }
+
+    .label-form1 {
+        position: relative;
+        left: 3vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6vw;
+        font-weight: 100;
+        color: white
+    }
+
+    .input-nescessidade {
+        width: 90vw;
+        height: 9vw;
+        border-radius: 1vw;
+        font-size: 4vw
+    }
+
+    #label-nome {
+        position: relative;
+        top: 12vw;
+    }
+
+    #input-nome {
+        position: relative;
+        top: 14vw;
+        left: 4vw;
+
+    }
+
+    #label-email {
+        top: 20vw;
+    }
+
+    #input-email {
+        position: relative;
+        top: 20vw;
+        left: 4vw;
+    }
+
+    #label-email {
+        top: 40vw;
+    }
+
+
+    #input-telefone {
+        position: relative;
+        top: 26vw;
+        left: 4vw;
+    }
+
+    #button-agendar-contato {
+        position: relative;
+        top: 35vw;
+        left: 5vw;
+        background-color: #013806;
+
+        width: 90vw;
+        height: 13vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white
+    }
+
+    #pai-missao {
+        margin: 1vw;
+        position: relative;
+        top:95vw;
+        /* top: 85vw; */
+        left: 0vw;
+        filter:blur(5px);
+        transition:top 0.5s ease,filter 0.5s ease;
+        width: 98vw;
+        height: 192vw;
+        background-size: 130vw 156vw;
+        background-position: -10vw;
+        border: 0px solid black;
+        border-radius: 5vw;
+
+
+    }
+
+    #img-logo-missao {
+        position: relative;
+        width: 20vw;
+        left: 41vw;
+        top: 5vw;
+        width: 20vw;
+    }
+
+    #title-missao {
+        font-size: 8vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: center;
+        position: relative;
+        top: 4vw;
+        left: 6vw;
+        width: 85%;
+        border: 0px solid black;
+        height: 23vw;
+        font-weight: 300;
+
+    }
+
+
+    #texto-missao {
+        font-size: 6.2vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 200;
+        position: relative;
+        left: 2vw;
+        top: -1.5vw;
+        width: 95%;
+        line-height: 1.9;
+        border: 0px solid black;
+
+
+    }
+
+
+    #footer {
+        width: 100vw;
+        height: 110vw;
+        background-color: #026C0D;
+        position: relative;
+        top: 140vw;
+    }
+
+    #logo-footer {
+        width: 20vw;
+        position: relative;
+
+        top: 5vw;
+        left: 45vw;
+    }
+
+    #h3-nome-rodape {
+        color: white;
+        font-size: 7vw;
+        font-family: "Readex Pro", sans-serif;
+        position: relative;
+        top: 10vw;
+        text-align: center;
+    }
+
+    #celular-rodapé {
+        position: relative;
+        top: 12vw;
+        left: 7vw;
+        font-size: 6vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        border: 0px solid black;
+        width: 90vw;
+    }
+
+    #div-email-rodape {
+        position: relative;
+        top: 19vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        width: 90vw;
+    }
+
+    #div-instagram-rodape {
+        position: relative;
+        top: 25vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        width: 90vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+    }
+
+    #menu-lista {
+        position: absolute;
+        top: 15vw;
+        list-style-type: none;
+        left: 39.8vw;
+        width: 50vw;
+        height: 0vw;
+        overflow: hidden;
+        transition: height 0.3s ease;
+        /* height:94vw; */
+        background-color: rgb(0, 51, 9, 0.8);
+
+
+    }
+
+    #menu-inicio {
+        position: relative;
+        top: 7vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+
+
+    }
+
+    #menu-servicos {
+        position: relative;
+        top: 15vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-agendar-contato {
+        position: relative;
+        top: 23vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-missao {
+        position: relative;
+        top: 31vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-rodape {
+        position: relative;
+        top: 39vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+
+    #li-icone-fechar {
+        position: relative;
+        top: 3vw;
+        left: -6vw;
+        color: white;
+        font-size: 7vw;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 424px) and (max-width: 576px) {
+
+
+    body {
+        margin: 0px;
+
+    }
+
+    #header {
+        z-index: 9999;
+        position: fixed;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 25vw;
+
+    }
+
+    #logo {
+        width: 55vw;
+        position: relative;
+        top: 5vw;
+    }
+
+    #icone-humburger {
+        font-size: 10vw;
+        position: relative;
+        left: 27vw;
+        top: 2vw;
+        color: #3b3b3b;
+        border: 0vw solid black;
+        transition: opacity 0.5s ease;
+    }
+
+    #main {
+        position: relative;
+        top: 10vw;
+        width: 100vw;
+
+    }
+
+    #fundo-meio {
+        background-image: url('fundo-meio2.jpeg');
+        background-size: 130vw 130vw;
+        background-position: 0vw;
+
+        position: relative;
+        top: 8vw;
+        border: 0px solid black;
+        width: 100%;
+        height: 100vw;
+
+    }
+
+    #fundo-meio-preto {
+        background-color: black;
+        position: absolute;
+        top: 0vw;
+        width: 100%;
+        height: 100vw;
+        opacity: 0.6
+    }
+
+    #servicos-oferecidos {
+        position: absolute;
+
+        background-size: 200vw;
+        border: 0px solid black;
+        width: 100vw;
+        height: 90vw;
+    }
+
+    #compliance-ambiental-title {
+        font-family: "Manrope", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 8.2vw;
+        position: relative;
+        top: 5.3vw;
+        left: 3vw;
+        width: 90vw;
+    }
+
+    #compliance-title {
+        color: #04e71a
+    }
+
+    #pai-fale-conosoco-whatsapp1 {
+        position: relative;
+        top: 6vw;
+        width: 100%;
+        border: 0px solid black;
+
+    }
+
+    #fale-conosco-whatsapp1 {
+        width: 60vw;
+        height: 10vw;
+        border-radius: 2vw;
+        position: relative;
+        left: 25%;
+        top: 0vw;
+        color: white;
+        font-size: 4.5vw;
+        font-family: "Manrope", sans-serif;
+
+
+        background-color: rgb(30, 104, 0);
+
+    }
+
+    #solicite-orcamento-texto {
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+
+    }
+
+    #whatsapp-icon1 {
+        position: relative;
+        left: 7%;
+        top: 1.2vw;
+        font-size: 7vw;
+        background: linear-gradient(135deg, #3df106, #02fc5e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #servicos {
+        position: relative;
+        top: 20vw;
+        width: 100vw;
+
+        border: 00px solid black;
+        text-align: center;
+    }
+
+    #servicos-oferecidos-title {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8.5vw;
+    }
+
+    #pai-servico-ambiental {
+        position: relative;
+        /* top: 30vw; */
+        left: 1.2vw;
+        top: 70vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        
+        
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-ambiental {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-folha {
+        width: 14vw;
+    }
+
+    #h1-compliance-ambiental {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-ambiental {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-saude {
+        position: relative;
+        /* top: 40vw; */
+        left: 1.2vw;
+        top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-saude {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-coracao {
+        width: 19vw;
+    }
+
+    #h1-compliance-saude {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-saude {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-seguranca {
+
+        position: relative;
+        /* top: 50vw; */
+        left: 1.2vw;
+
+        top: 100vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-seguranca {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-chapeu {
+        width: 19vw;
+    }
+
+    #h1-compliance-chapeu {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-chapeu {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-nescessidade {
+        background-color: #026C0D;
+        height: 205vw;
+        width: 100vw;
+        position: relative;
+        top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease;
+
+
+    }
+
+    #title-nescessidade {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8Vw;
+        font-weight: 500;
+        position: relative;
+        top: 6vw;
+        left: 3vw;
+        width: 95vw;
+        border: 0px solid black
+    }
+
+    #texto-nescessidade {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: white;
+        width: 90vw;
+        text-align: justify;
+        hyphens: auto;
+        position: relative;
+        left: 3vw;
+        top: 4vw;
+        width: 80vw;
+    }
+
+    .label-form1 {
+        position: relative;
+        left: 3vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6vw;
+        font-weight: 100;
+        color: white
+    }
+
+    .input-nescessidade {
+        width: 90vw;
+        height: 9vw;
+        border-radius: 1vw;
+        font-size: 4vw
+    }
+
+    #label-nome {
+        position: relative;
+        top: 12vw;
+    }
+
+    #input-nome {
+        position: relative;
+        top: 14vw;
+        left: 4vw;
+
+    }
+
+    #label-email {
+        top: 20vw;
+    }
+
+    #input-email {
+        position: relative;
+        top: 20vw;
+        left: 4vw;
+    }
+
+    #label-email {
+        top: 40vw;
+    }
+
+
+    #input-telefone {
+        position: relative;
+        top: 26vw;
+        left: 4vw;
+    }
+
+    #button-agendar-contato {
+        position: relative;
+        top: 35vw;
+        left: 5vw;
+        background-color: #013806;
+
+        width: 90vw;
+        height: 13vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white
+    }
+
+    #pai-missao {
+        margin: 1vw;
+        position: relative;
+        top: 85vw;
+        left: 0vw;
+        filter:blur(5px);
+        transition:top 0.5s ease,filter 0.5s ease;
+        width: 98vw;
+        height: 192vw;
+        background-size: 130vw 156vw;
+        background-position: -10vw;
+        border: 0px solid black;
+        border-radius: 5vw;
+
+
+    }
+
+    #img-logo-missao {
+        position: relative;
+        width: 20vw;
+        left: 41vw;
+        top: 5vw;
+        width: 20vw;
+    }
+
+    #title-missao {
+        font-size: 8vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: center;
+        position: relative;
+        top: 4vw;
+        left: 6vw;
+        width: 85%;
+        border: 0px solid black;
+        height: 23vw;
+        font-weight: 300;
+
+    }
+
+
+    #texto-missao {
+        font-size: 6.2vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 200;
+        position: relative;
+        left: 2vw;
+        top: -1.5vw;
+        width: 95%;
+        line-height: 1.9;
+        border: 0px solid black;
+
+
+    }
+
+
+    #footer {
+        width: 100vw;
+        height: 110vw;
+        background-color: #026C0D;
+        position: relative;
+        top: 140vw;
+    }
+
+    #logo-footer {
+        width: 20vw;
+        position: relative;
+
+        top: 5vw;
+        left: 40vw;
+    }
+
+    #h3-nome-rodape {
+        color: white;
+        font-size: 7vw;
+        font-family: "Readex Pro", sans-serif;
+        position: relative;
+        top: 10vw;
+        text-align: center;
+    }
+
+    #celular-rodapé {
+        position: relative;
+        top: 12vw;
+        left: 7vw;
+        font-size: 6vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        border: 0px solid black;
+        width: 90vw;
+    }
+
+    #div-email-rodape {
+        position: relative;
+        top: 19vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        width: 90vw;
+    }
+
+    #div-instagram-rodape {
+        position: relative;
+        top: 25vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        width: 90vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+    }
+
+    #menu-lista {
+        position: absolute;
+        top: 6vw;
+        list-style-type: none;
+        left: 42.8vw;
+        width: 50vw;
+        height: 0vw;
+        overflow: hidden;
+        transition: height 0.3s ease;
+        /* height:94vw; */
+        background-color: rgb(0, 51, 9, 0.8);
+
+
+    }
+
+    #menu-inicio {
+        position: relative;
+        top: 7vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+
+
+    }
+
+    #menu-servicos {
+        position: relative;
+        top: 15vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-agendar-contato {
+        position: relative;
+        top: 23vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-missao {
+        position: relative;
+        top: 31vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-rodape {
+        position: relative;
+        top: 39vw;
+        left: -6vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+
+    #li-icone-fechar {
+        position: relative;
+        top: 3vw;
+        left: -6vw;
+        color: white;
+        font-size: 7vw;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+
+    body {
+        margin: 0px;
+
+    }
+
+    #header {
+        z-index: 9999;
+        position: fixed;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 25vw;
+
+    }
+
+    #logo {
+        width: 55vw;
+        position: relative;
+        top: 5vw;
+    }
+
+    #icone-humburger {
+        font-size: 10vw;
+        position: relative;
+        left: 27vw;
+        top: 2vw;
+        color: #3b3b3b;
+        border: 0vw solid black;
+        transition: opacity 0.5s ease;
+    }
+
+    #main {
+        position: relative;
+        top: 10vw;
+        width: 100vw;
+
+    }
+
+    #fundo-meio {
+        background-image: url('fundo-meio2.jpeg');
+        background-size: 130vw 130vw;
+        background-position: 0vw;
+
+        position: relative;
+        top: 8vw;
+        border: 0px solid black;
+        width: 100%;
+        height: 100vw;
+
+    }
+
+    #fundo-meio-preto {
+        background-color: black;
+        position: absolute;
+        top: 0vw;
+        width: 100%;
+        height: 100vw;
+        opacity: 0.6
+    }
+
+    #servicos-oferecidos {
+        position: absolute;
+
+        background-size: 200vw;
+        border: 0px solid black;
+        width: 100vw;
+        height: 90vw;
+    }
+
+    #compliance-ambiental-title {
+        font-family: "Manrope", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 8.2vw;
+        position: relative;
+        top: 5.3vw;
+        left: 3vw;
+        width: 90vw;
+    }
+
+    #compliance-title {
+        color: #04e71a
+    }
+
+    #pai-fale-conosoco-whatsapp1 {
+        position: relative;
+        top: 6vw;
+        width: 100%;
+        border: 0px solid black;
+
+    }
+
+    #fale-conosco-whatsapp1 {
+        width: 60vw;
+        height: 10vw;
+        border-radius: 2vw;
+        position: relative;
+        left: 25%;
+        top: 0vw;
+        color: white;
+        font-size: 4.5vw;
+        font-family: "Manrope", sans-serif;
+
+
+        background-color: rgb(30, 104, 0);
+
+    }
+
+    #solicite-orcamento-texto {
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+
+    }
+
+    #whatsapp-icon1 {
+        position: relative;
+        left: 7%;
+        top: 1.2vw;
+        font-size: 7vw;
+        background: linear-gradient(135deg, #3df106, #02fc5e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #servicos {
+        position: relative;
+        top: 20vw;
+        width: 100vw;
+
+        border: 00px solid black;
+        text-align: center;
+    }
+
+    #servicos-oferecidos-title {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8.5vw;
+    }
+
+    #pai-servico-ambiental {
+        position: relative;
+        /* top: 30vw; */
+        left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 70vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-ambiental {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-folha {
+        width: 14vw;
+    }
+
+    #h1-compliance-ambiental {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-ambiental {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-saude {
+        position: relative;
+        /* top: 40vw; */
+        left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 90vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-saude {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-coracao {
+        width: 19vw;
+    }
+
+    #h1-compliance-saude {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-saude {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-seguranca {
+
+        position: relative;
+        /* top: 50vw; */
+        left: 1.2vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease,top 0.5s ease;
+        top: 100vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-seguranca {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-chapeu {
+        width: 19vw;
+    }
+
+    #h1-compliance-chapeu {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-chapeu {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-nescessidade {
+        background-color: #026C0D;
+        height: 205vw;
+        width: 100vw;
+        position: relative;
+        top: 80vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease;
+
+
+    }
+
+    #title-nescessidade {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8Vw;
+        font-weight: 500;
+        position: relative;
+        top: 6vw;
+        left: 3vw;
+        width: 95vw;
+        border: 0px solid black
+    }
+
+    #texto-nescessidade {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: white;
+        width: 90vw;
+        text-align: justify;
+        hyphens: auto;
+        position: relative;
+        left: 3vw;
+        top: 4vw;
+        width: 80vw;
+    }
+
+    .label-form1 {
+        position: relative;
+        left: 3vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6vw;
+        font-weight: 100;
+        color: white
+    }
+
+    .input-nescessidade {
+        width: 90vw;
+        height: 9vw;
+        border-radius: 1vw;
+        font-size: 4vw
+    }
+
+    #label-nome {
+        position: relative;
+        top: 12vw;
+    }
+
+    #input-nome {
+        position: relative;
+        top: 14vw;
+        left: 4vw;
+
+    }
+
+    #label-email {
+        top: 20vw;
+    }
+
+    #input-email {
+        position: relative;
+        top: 20vw;
+        left: 4vw;
+    }
+
+    #label-email {
+        top: 40vw;
+    }
+
+
+    #input-telefone {
+        position: relative;
+        top: 26vw;
+        left: 4vw;
+    }
+
+    #button-agendar-contato {
+        position: relative;
+        top: 35vw;
+        left: 5vw;
+        background-color: #013806;
+
+        width: 90vw;
+        height: 13vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white
+    }
+
+    #pai-missao {
+        margin: 1vw;
+        position: relative;
+        top: 85vw;
+        left: 0vw;
+        filter:blur(5px);
+        transition:filter 0.5s ease;
+        width: 98vw;
+        height: 192vw;
+        background-size: 130vw 156vw;
+        background-position: -10vw;
+        border: 0px solid black;
+        border-radius: 5vw;
+
+
+    }
+
+    #img-logo-missao {
+        position: relative;
+        width: 20vw;
+        left: 41vw;
+        top: 5vw;
+        width: 20vw;
+    }
+
+    #title-missao {
+        font-size: 8vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: center;
+        position: relative;
+        top: 4vw;
+        left: 6vw;
+        width: 85%;
+        border: 0px solid black;
+        height: 23vw;
+        font-weight: 300;
+
+    }
+
+
+    #texto-missao {
+        font-size: 6.2vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 200;
+        position: relative;
+        left: 2vw;
+        top: -1.5vw;
+        width: 95%;
+        line-height: 1.9;
+        border: 0px solid black;
+
+
+    }
+
+
+    #footer {
+        width: 100vw;
+        height: 110vw;
+        background-color: #026C0D;
+        position: relative;
+        top: 140vw;
+    }
+
+    #logo-footer {
+        width: 20vw;
+        position: relative;
+
+        top: 5vw;
+        left: 40vw;
+    }
+
+    #h3-nome-rodape {
+        color: white;
+        font-size: 7vw;
+        font-family: "Readex Pro", sans-serif;
+        position: relative;
+        top: 10vw;
+        text-align: center;
+    }
+
+    #celular-rodapé {
+        position: relative;
+        top: 12vw;
+        left: 7vw;
+        font-size: 6vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        border: 0px solid black;
+        width: 90vw;
+    }
+
+    #div-email-rodape {
+        position: relative;
+        top: 19vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        width: 90vw;
+    }
+
+    #div-instagram-rodape {
+        position: relative;
+        top: 25vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        width: 90vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+    }
+
+    #menu-lista {
+        position: absolute;
+        top: 7vw;
+        list-style-type: none;
+        left: 44.9vw;
+        width: 50vw;
+        height: 0vw;
+        overflow: hidden;
+        transition: height 0.3s ease;
+        /* height:94vw; */
+        background-color: rgb(0, 51, 9, 0.8);
+
+
+    }
+
+    #menu-inicio {
+        position: relative;
+        top: 7vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+
+
+    }
+
+    #menu-servicos {
+        position: relative;
+        top: 15vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-agendar-contato {
+        position: relative;
+        top: 23vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-missao {
+        position: relative;
+        top: 31vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-rodape {
+        position: relative;
+        top: 39vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+
+    #li-icone-fechar {
+        position: relative;
+        top: 3vw;
+        left: 0vw;
+        color: white;
+        font-size: 7vw;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 992px) {
+
+
+    body {
+        margin: 0px;
+
+    }
+
+    #header {
+        z-index: 9999;
+        position: fixed;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 18vw;
+
+    }
+
+    #logo {
+        width: 40vw;
+        position: relative;
+        top: 5vw;
+    }
+
+    #icone-humburger {
+        font-size: 7vw;
+        position: relative;
+        left: 50vw;
+        top: 2vw;
+        color: #3b3b3b;
+        border: 0vw solid black;
+        transition: opacity 0.5s ease;
+    }
+
+    #main {
+        position: relative;
+        top: 10vw;
+        width: 100vw;
+
+    }
+
+    #fundo-meio {
+        background-image: url('fundo-meio2.jpeg');
+        background-size: 130vw 130vw;
+        background-position: 0vw;
+
+        position: relative;
+        top: 8vw;
+        border: 0px solid black;
+        width: 100%;
+        height: 100vw;
+
+    }
+
+    #fundo-meio-preto {
+        background-color: black;
+        position: absolute;
+        top: 0vw;
+        width: 100%;
+        height: 100vw;
+        opacity: 0.6
+    }
+
+    #servicos-oferecidos {
+        position: absolute;
+
+        background-size: 200vw;
+        border: 0px solid black;
+        width: 100vw;
+        height: 90vw;
+    }
+
+    #compliance-ambiental-title {
+        font-family: "Manrope", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 8.2vw;
+        position: relative;
+        top: 5.3vw;
+        left: 3vw;
+        width: 90vw;
+    }
+
+    #compliance-title {
+        color: #04e71a
+    }
+
+    #pai-fale-conosoco-whatsapp1 {
+        position: relative;
+        top: 6vw;
+        width: 100%;
+        border: 0px solid black;
+
+    }
+
+    #fale-conosco-whatsapp1 {
+        width: 60vw;
+        height: 10vw;
+        border-radius: 2vw;
+        position: relative;
+        left: 25%;
+        top: 0vw;
+        color: white;
+        font-size: 4.5vw;
+        font-family: "Manrope", sans-serif;
+
+
+        background-color: rgb(30, 104, 0);
+
+    }
+
+    #solicite-orcamento-texto {
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+
+    }
+
+    #whatsapp-icon1 {
+        position: relative;
+        left: 7%;
+        top: 1.2vw;
+        font-size: 7vw;
+        background: linear-gradient(135deg, #3df106, #02fc5e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    #servicos {
+        position: relative;
+        top: 20vw;
+        width: 100vw;
+
+        border: 00px solid black;
+        text-align: center;
+    }
+
+    #servicos-oferecidos-title {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8.5vw;
+    }
+
+    #pai-servico-ambiental {
+        position: relative;
+        top: 30vw;
+        left: 1.2vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-ambiental {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-folha {
+        width: 14vw;
+    }
+
+    #h1-compliance-ambiental {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-ambiental {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-saude {
+        position: relative;
+        top: 40vw;
+        left: 1.2vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-saude {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-coracao {
+        width: 19vw;
+    }
+
+    #h1-compliance-saude {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-saude {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-servico-seguranca {
+
+        position: relative;
+        top: 50vw;
+        left: 1.2vw;
+        width: 98vw;
+        height: 80vw;
+        text-align: center;
+        border: 1px solid gray;
+        border-radius: 3vw;
+    }
+
+    #filho-servico-seguranca {
+        position: relative;
+        top: 5vw;
+    }
+
+    #img-chapeu {
+        width: 19vw;
+    }
+
+    #h1-compliance-chapeu {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+    }
+
+    #texto-compliance-chapeu {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110)
+    }
+
+    #pai-nescessidade {
+        background-color: #026C0D;
+        height: 205vw;
+        width: 100vw;
+        position: relative;
+        top: 80vw;
+        
+
+
+    }
+
+    #title-nescessidade {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 8Vw;
+        font-weight: 500;
+        position: relative;
+        top: 6vw;
+        left: 3vw;
+        width: 95vw;
+        border: 0px solid black
+    }
+
+    #texto-nescessidade {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6Vw;
+        font-weight: 100;
+        color: white;
+        width: 90vw;
+        text-align: justify;
+        hyphens: auto;
+        position: relative;
+        left: 3vw;
+        top: 4vw;
+        width: 80vw;
+    }
+
+    .label-form1 {
+        position: relative;
+        left: 3vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 6vw;
+        font-weight: 100;
+        color: white
+    }
+
+    .input-nescessidade {
+        width: 90vw;
+        height: 9vw;
+        border-radius: 1vw;
+        font-size: 4vw
+    }
+
+    #label-nome {
+        position: relative;
+        top: 12vw;
+    }
+
+    #input-nome {
+        position: relative;
+        top: 14vw;
+        left: 4vw;
+
+    }
+
+    #label-email {
+        top: 20vw;
+    }
+
+    #input-email {
+        position: relative;
+        top: 20vw;
+        left: 4vw;
+    }
+
+    #label-email {
+        top: 40vw;
+    }
+
+
+    #input-telefone {
+        position: relative;
+        top: 26vw;
+        left: 4vw;
+    }
+
+    #button-agendar-contato {
+        position: relative;
+        top: 35vw;
+        left: 5vw;
+        background-color: #013806;
+
+        width: 90vw;
+        height: 13vw;
+        border-radius: 5vw;
+        font-size: 5vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white
+    }
+
+    #pai-missao {
+        margin: 1vw;
+        position: relative;
+        top: 85vw;
+        left: 0vw;
+
+        width: 98vw;
+        height: 192vw;
+        background-size: 130vw 156vw;
+        background-position: -10vw;
+        border: 0px solid black;
+        border-radius: 5vw;
+
+
+    }
+
+    #img-logo-missao {
+        position: relative;
+        width: 20vw;
+        left: 41vw;
+        top: 5vw;
+        width: 20vw;
+    }
+
+    #title-missao {
+        font-size: 8vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: center;
+        position: relative;
+        top: 4vw;
+        left: 6vw;
+        width: 85%;
+        border: 0px solid black;
+        height: 23vw;
+        font-weight: 300;
+
+    }
+
+
+    #texto-missao {
+        font-size: 6.2vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 200;
+        position: relative;
+        left: 2vw;
+        top: -1.5vw;
+        width: 95%;
+        line-height: 1.9;
+        border: 0px solid black;
+
+
+    }
+
+
+    #footer {
+        width: 100vw;
+        height: 110vw;
+        background-color: #026C0D;
+        position: relative;
+        top: 140vw;
+    }
+
+    #logo-footer {
+        width: 20vw;
+        position: relative;
+
+        top: 5vw;
+        left: 40vw;
+    }
+
+    #h3-nome-rodape {
+        color: white;
+        font-size: 7vw;
+        font-family: "Readex Pro", sans-serif;
+        position: relative;
+        top: 10vw;
+        text-align: center;
+    }
+
+    #celular-rodapé {
+        position: relative;
+        top: 12vw;
+        left: 7vw;
+        font-size: 6vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        border: 0px solid black;
+        width: 90vw;
+    }
+
+    #div-email-rodape {
+        position: relative;
+        top: 19vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        width: 90vw;
+    }
+
+    #div-instagram-rodape {
+        position: relative;
+        top: 25vw;
+        left: 7vw;
+        font-size: 5.3vw;
+        width: 90vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+    }
+
+    #menu-lista {
+        position: absolute;
+        top: 5.5vw;
+        list-style-type: none;
+        left: 45.9vw;
+        width: 50vw;
+        height: 0vw;
+        overflow: hidden;
+        transition: height 0.3s ease;
+        /* height:94vw; */
+        background-color: rgb(0, 51, 9, 0.8);
+
+
+    }
+
+    #menu-inicio {
+        position: relative;
+        top: 2vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+
+
+    }
+
+    #menu-servicos {
+        position: relative;
+        top: 7vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-agendar-contato {
+        position: relative;
+        top: 12vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-missao {
+        position: relative;
+        top: 17vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+    #menu-rodape {
+        position: relative;
+        top: 22vw;
+        left: 0vw;
+        font-size: 6vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white;
+    }
+
+
+    #li-icone-fechar {
+        position: relative;
+        top: 1vw;
+        left: 0vw;
+        color: white;
+        font-size: 7vw;
+
+}
+
+}
+
+
+@media(min-width:992px) {
+    body {
+        margin: 0px;
+    }
+
+    #header {
+        z-index: 9999;
+        position: fixed;
+        top: 0vw;
+        background-color: white;
+        width: 100vw;
+        height: 7vw;
+        border: 0px solid black
+    }
+
+    #logo {
+        width: 22vw;
+        position: relative;
+        top: 1vw;
+        left: 5vw;
+    }
+
+    #icone-humburger {
+        display: none;
+    }
+
+
+    #main {
+        position: relative;
+        top: 10vw;
+        width: 100vw;
+
+        border: 0px solid black
+    }
+
+    #fundo-meio {
+        background-image: url('fundo-meio2.jpeg');
+        background-size: 130vw 130vw;
+        background-position: 0vw;
+
+        position: absolute;
+        top: 0vw;
+        border: 0px solid black;
+        width: 103%;
+        height: 50vw;
+
+    }
+
+    #fundo-meio-preto {
+        background-color: black;
+        position: absolute;
+        top: 0vw;
+        width: 103%;
+        height: 50vw;
+        opacity: 0.6
+    }
+
+    #servicos-oferecidos {
+        position: relative;
+
+        background-size: 200vw;
+        border: 0px solid black;
+        width: 100%;
+        height: 90vw;
+    }
+
+    #compliance-ambiental-title {
+        font-family: "Manrope", sans-serif;
+        color: white;
+        font-weight: 600;
+        font-size: 4vw;
+        position: relative;
+        top: 0vw;
+        left: 3vw;
+    }
+
+    #compliance-title {
+        color: #04e71a
+    }
+
+
+
+
+    #pai-fale-conosoco-whatsapp1 {
+        position: relative;
+        top: 15vw;
+        width: 100%;
+        border: 0px solid black;
+
+    }
+
+    #fale-conosco-whatsapp1 {
+        width: 30vw;
+        height: 5vw;
+        border-radius: 2vw;
+        position: relative;
+        left: 55%;
+        top: -20vw;
+        color: white;
+        font-size: 2vw;
+        font-family: "Manrope", sans-serif;
+
+
+        background-color: rgb(30, 104, 0);
+
+    }
+
+    #solicite-orcamento-texto {
+        position: relative;
+        top: 0vw;
+        left: 1vw;
+
+
+    }
+
+    #whatsapp-icon1 {
+        position: relative;
+        left: 7%;
+        top: 0.9vw;
+        font-size: 4vw;
+        background: linear-gradient(135deg, #3df106, #02fc5e);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+
+    #servicos {
+        position: relative;
+        top: 58vw;
+        width: 100vw;
+
+        text-align: center;
+    }
+
+    #servicos-oferecidos-title {
+        position:relative;
+        top:10vw;
+        filter:blur(5px);
+        transition:top 0.5s ease, filter 1s ease;
+
+        font-family: "Readex Pro", sans-serif;
+        font-size: 3.7vw;
+        color: green
+    }
+
+    #pai-servico-ambiental {
+        
+        position: relative;
+        float: left;
+        transition:top 0.2s ease;
+        top: 90vw;
+        left: 1vw;
+        width: 30vw;
+        height: 33vw;
+        text-align: center;
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 3vw;
+    }
+
+    #filho-servico-ambiental {
+        position: relative;
+        top: 2vw;
+    }
+
+    #img-folha {
+        width: 4vw;
+    }
+
+    #h1-compliance-ambiental {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2Vw;
+    }
+
+    #texto-compliance-ambiental {
+        margin: 2vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2.4Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110);
+        text-align: justify;
+        hyphens: auto;
+        width: 27vw;
+    }
+
+
+
+
+
+    #pai-servico-saude {
+        position: relative;
+        float: left;
+        
+        transition:top 0.2s ease;
+        top: 100vw;
+        
+        left: 4vw;
+        width: 30vw;
+        height: 33vw;
+        text-align: center;
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 3vw;
+    }
+
+    #filho-servico-saude {
+        position: relative;
+        top: 2vw;
+    }
+
+    #img-coracao {
+        width: 4vw;
+    }
+
+    #h1-compliance-saude {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2Vw;
+    }
+
+    #texto-compliance-saude {
+        margin: 2vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2.4Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110);
+        hyphens: auto;
+        width: 27vw;
+    }
+
+
+
+
+
+    #pai-servico-seguranca {
+
+        position: relative;
+        float: left;
+        transition:top 0.2s ease;
+        top: 110vw;
+        
+        left: 7vw;
+        width: 30vw;
+        height: 33vw;
+        text-align: center;
+        border: 1px solid rgb(211, 211, 211);
+        border-radius: 3vw;
+    }
+
+    #filho-servico-seguranca {
+        position: relative;
+        top: 2vw;
+    }
+
+    #img-chapeu {
+        width: 4vw;
+    }
+
+    #h1-compliance-chapeu {
+        position: relative;
+        top: 1vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2Vw;
+    }
+
+    #texto-compliance-chapeu {
+        margin: 2vw;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 2.4Vw;
+        font-weight: 100;
+        color: rgb(110, 110, 110);
+        hyphens: auto;
+        width: 27vw;
+    }
+
+
+    #pai-nescessidade {
+        background-color: #026C0D;
+        height: 55vw;
+        width: 100vw;
+        position: relative;
+        top: 100vw;
+        filter:blur(2px);
+        transition:filter 0.2s ease;
+
+
+    }
+
+    #title-nescessidade {
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 3Vw;
+
+        font-weight: 300;
+        position: relative;
+        top: -29vw;
+        left: 23vw;
+        width: 95vw;
+        border: 0px solid black
+    }
+
+    #texto-nescessidade {
+        font-family: "Readex Pro", sans-serif;
+        font-size: 1.9Vw;
+        font-weight: 100;
+        color: white;
+        text-align: justify;
+        hyphens: auto;
+        position: relative;
+        left: 17vw;
+        top: -30vw;
+        width: 59vw;
+        border: 0px solid black
+    }
+
+    .label-form1 {
+        position: relative;
+        left: 10.4vw;
+        border: 0px solid black;
+        font-family: "Readex Pro", sans-serif;
+        font-size: 1.7vw;
+        font-weight: 100;
+        color: white
+    }
+
+    .input-nescessidade {
+        width: 60vw;
+        height: 2.5vw;
+        border-radius: 0.5vw;
+        font-size: 2vw;
+        position: relative;
+
+    }
+
+    #label-nome {
+        position: relative;
+        top: -27vw;
+        left: 16vw;
+    }
+
+    #input-nome {
+        position: relative;
+        top: -27vw;
+        left: 16vw;
+
+    }
+
+    #label-email {
+        top: -18vw;
+        left: 16vw
+    }
+
+    #input-email {
+        position: relative;
+        top: -17.9vw;
+        left: 16vw;
+    }
+
+    #label-telefone {
+        top: -30vw;
+        left: 16vw;
+    }
+
+
+    #input-telefone {
+        position: relative;
+        top: -29.9vw;
+        left: 16vw;
+    }
+
+
+
+    #button-agendar-contato {
+        position: relative;
+        top: -19vw;
+        left: 20vw;
+        background-color: #013806;
+
+        width: 50vw;
+        height: 5vw;
+        border-radius: 1vw;
+        font-size: 2vw;
+        font-family: "Readex Pro", sans-serif;
+        color: white
+    }
+
+
+
+
+
+
+    #pai-missao {
+        margin: 0vw;
+        position: relative;
+        top: 110vw;
+        left: 0vw;
+
+        width: 100vw;
+        height: 50vw;
+        background-size: 130vw 156vw;
+        background-position: -10vw;
+        border: 0px solid rgb(173, 173, 173);
+        border-radius: 5vw;
+        filter: blur(5px);
+
+
+    }
+
+    #img-logo-missao {
+        position: relative;
+
+        left: 45vw;
+        top: 5vw;
+        width: 9vw;
+    }
+
+    #title-missao {
+        font-size: 4vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: center;
+        position: relative;
+        top: 4vw;
+        width: 100%;
+        height: 23vw;
+        font-weight: 300;
+
+    }
+
+
+    #texto-missao {
+        font-size: 2.2vw;
+        font-family: "Readex Pro", sans-serif;
+        text-align: justify;
+        hyphens: auto;
+        font-weight: 200;
+        position: relative;
+        left: 8vw;
+        top: -15vw;
+        width: 80%;
+        line-height: 1.9;
+    }
+
+    #footer {
+
+        width: 100vw;
+        height: 35vw;
+        border: 1px solid black;
+        background-color: #026C0D;
+        position: absolute;
+        top: 250vw;
+    }
+
+    #logo-footer {
+        width: 4vw;
+        position: relative;
+
+        top: 5vw;
+        left: 45vw;
+    }
+
+    #h3-nome-rodape {
+        color: white;
+        width: 25vw;
+        font-family: "Readex Pro", sans-serif;
+        position: relative;
+        top: 4vw;
+        left: 35vw;
+        font-size: 3vw;
+
+    }
+
+    #celular-rodapé {
+        position: relative;
+        top: 0vw;
+        top: 2vw;
+        left: 30vw;
+        font-size: 3vw;
+
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        border: 0px solid black;
+        width: 90vw;
+    }
+
+    #div-email-rodape {
+        position: relative;
+        top: 19vw;
+        left: 10vw;
+        font-size: 3vw;
+        top: 3vw;
+        left: 21vw;
+        font-size: 3vw;
+
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+        width: 90vw;
+    }
+
+    #div-instagram-rodape {
+        position: relative;
+        top: 4vw;
+        left: 29vw;
+        font-size: 3vw;
+        width: 90vw;
+        color: white;
+        font-family: "Readex Pro", sans-serif;
+
+    }
+
+
+    #menu-lista {
+        display: none;
+    }
+
+}

@@ -1,0 +1,50 @@
+/* Copiado do projeto original para a demo */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+* { box-sizing: border-box; }
+body { margin:0; font-family: Inter, system-ui, -apple-system, Segoe UI, Roboto, Arial; color:#1f2937; background:#f8fafc; }
+.container { max-width: 1100px; padding: 0 16px; margin: 0 auto; }
+.header { position: sticky; top:0; z-index:10; background:#111827; color:#fff; box-shadow: 0 2px 8px rgba(0,0,0,.15); }
+.header .container { display:flex; align-items:center; justify-content:space-between; padding:14px 16px; }
+.logo { display:flex; gap:10px; align-items:center; }
+.logo h1 { font-size:20px; margin:0; letter-spacing:.5px; }
+nav a { color:#e5e7eb; text-decoration:none; margin-left:16px; font-weight:600; }
+nav a:hover { color:#fff; }
+
+.filtros { display:flex; gap:8px; margin:24px 0; flex-wrap:wrap; }
+.filtro-btn { border:1px solid #e5e7eb; background:#fff; color:#111827; padding:8px 12px; border-radius:999px; cursor:pointer; font-weight:600; }
+.filtro-btn.active, .filtro-btn:hover { background:#6366f1; color:#fff; border-color:#6366f1; }
+
+.categoria-secao { margin-bottom:32px; }
+.categoria-secao h2 { margin:0 0 16px; font-size:22px; color:#111827; }
+.produtos-grid { display:grid; grid-template-columns: repeat(auto-fill, minmax(240px,1fr)); gap:16px; }
+.produto-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; overflow:hidden; box-shadow: 0 1px 2px rgba(0,0,0,.05); display:flex; flex-direction:column; }
+.produto-card img { width:100%; height:160px; object-fit:cover; background:#f3f4f6; }
+.produto-card > div { padding:12px; display:flex; flex-direction:column; gap:8px; }
+.preco { color:#111827; font-weight:700; }
+.actions { display:flex; gap:8px; }
+.btn { display:inline-flex; align-items:center; justify-content:center; border-radius:8px; padding:8px 12px; text-decoration:none; font-weight:600; cursor:pointer; border:1px solid transparent; }
+.btn-primario { background:#6366f1; color:#fff; }
+.btn-primario:hover { background:#4f46e5; }
+.btn-secundario { background:#fff; color:#111827; border-color:#e5e7eb; }
+.btn-secundario:hover { border-color:#c7c9d1; }
+
+main.container { padding: 24px 0 40px; }
+
+/* Produto */
+.produto-detalhes { display:grid; grid-template-columns:1fr; gap:20px; }
+@media (min-width: 900px){ .produto-detalhes{ grid-template-columns:1fr 1fr; } }
+.produto-imagem img { width:100%; height:100%; max-height:400px; object-fit:contain; background:#f3f4f6; border:1px solid #e5e7eb; border-radius:12px; }
+.produto-info .preco { font-size:20px; }
+.compra-box { display:flex; gap:10px; align-items:center; }
+.compra-box input { width:80px; padding:6px 8px; }
+
+/* Carrinho */
+.carrinho-item { display:flex; align-items:center; justify-content:space-between; background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:12px; margin-bottom:10px; }
+#finalizar { margin-top:12px; }
+
+/* Pedidos */
+.pedido-card { background:#fff; border:1px solid #e5e7eb; border-radius:12px; padding:16px; margin-bottom:12px; }
+.pedido-info { display:flex; align-items:flex-start; justify-content:space-between; gap:16px; }
+.pedido-itens ul{ margin:8px 0 0; padding-left:18px; }
+.status-badge { padding:2px 8px; border-radius:999px; border:1px solid #e5e7eb; background:#f3f4f6; font-size:12px; font-weight:700; }
+.status-processando { color:#92400e; background:#fff7ed; border-color:#f59e0b; }

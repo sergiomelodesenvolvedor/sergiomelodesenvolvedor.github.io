@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Habit Tracker — Avançado</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app">
+    <!-- MAIN -->
+    <div class="panel">
+      <header class="app-header">
+        <div class="title">
+          <div class="logo">HT</div>
+          <div>
+            <h1>Habit Tracker</h1>
+            <p class="lead">Marque hábitos, acompanhe streaks e exporte seus dados.</p>
+          </div>
+        </div>
+
+        <div style="display:flex;gap:8px;align-items:center">
+          <button id="themeToggle" class="icon-btn" title="Alternar tema">🌗</button>
+          <button id="openStats" class="icon-btn" title="Estatísticas">📊</button>
+        </div>
+      </header>
+
+      <div class="controls">
+        <input id="habitInput" placeholder="Ex: beber água, ler 10 min..." />
+        <button id="addBtn" class="btn">Adicionar</button>
+      </div>
+
+      <div class="list panel-list" id="habitList"></div>
+    </div>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <div class="card">
+        <div class="row">
+          <div>
+            <div class="small">Progresso total</div>
+            <h2 id="totalPercent">0%</h2>
+          </div>
+          <div style="text-align:right">
+            <div class="small">Hábitos</div>
+            <h3 id="totalHabits">0</h3>
+          </div>
+        </div>
+
+        <div style="margin-top:10px;display:flex;gap:8px">
+          <button id="resetWeek" class="ghost">Resetar semana</button>
+          <button id="backupBtn" class="ghost">Exportar</button>
+          <button id="importBtn" class="ghost">Importar</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="small">Notificações</div>
+        <div style="margin-top:8px;display:flex;gap:8px;align-items:center">
+          <input id="notifyTime" type="time" value="20:00" style="padding:8px;border-radius:8px;border:1px solid rgba(0,0,0,0.06)"/>
+          <button id="enableNotif" class="btn">Ativar lembrete</button>
+        </div>
+        <div class="small" style="margin-top:8px;color:var(--muted)">As notificações funcionam enquanto o navegador estiver aberto. Você será solicitado a permitir notificações.</div>
+      </div>
+
+      <div class="card">
+        <div class="small">Dicas</div>
+        <ul style="margin:8px 0 0 18px;color:var(--muted)">
+          <li>Mantenha poucos hábitos simultâneos.</li>
+          <li>Use o botão ✎ para editar nomes.</li>
+          <li>Use export/import para backup.</li>
+        </ul>
+      </div>
+    </aside>
+  </div>
+
+  <!-- stats modal -->
+  <div id="statsModal" class="modal" role="dialog" aria-hidden="true">
+    <div class="content">
+      <div style="display:flex;justify-content:space-between;align-items:center">
+        <h2>Estatísticas</h2>
+        <button id="closeStats" class="icon-btn">✕</button>
+      </div>
+
+      <div style="margin-top:8px" id="statsBody">
+        <!-- preenchido por JS -->
+      </div>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>

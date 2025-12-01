@@ -1,0 +1,19 @@
+{
+  "name": "loja-virtual-backend",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "init-db": "node scripts/initDatabase.js",
+    "seed": "node scripts/seedDatabase.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

@@ -1,0 +1,123 @@
+main h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  color: var(--cor-texto);
+  font-weight: 700;
+}
+
+#pedidos-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.pedido-card {
+  background: var(--cor-fundo-card);
+  border-radius: var(--border-radius);
+  padding: 2rem;
+  box-shadow: var(--sombra-lg);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pedido-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--sombra-xl);
+}
+
+.pedido-card h3 {
+  margin: 0 0 1.5rem 0;
+  color: var(--cor-primaria);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.pedido-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.pedido-info p {
+  margin: 0.5rem 0;
+  color: var(--cor-texto-secundario);
+  font-size: 0.95rem;
+}
+
+.pedido-info strong {
+  color: var(--cor-texto);
+  font-weight: 600;
+}
+
+.pedido-itens {
+  margin-top: 1.5rem;
+  background: var(--cor-fundo);
+  padding: 1.5rem;
+  border-radius: 8px;
+}
+
+.pedido-itens h4 {
+  font-size: 1.125rem;
+  margin-bottom: 1rem;
+  color: var(--cor-texto);
+  font-weight: 600;
+}
+
+.pedido-itens ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pedido-itens li {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid #e5e7eb;
+  color: var(--cor-texto-secundario);
+}
+
+.pedido-itens li:last-child {
+  border-bottom: none;
+}
+
+.status-badge {
+  display: inline-block;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.status-pendente {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.status-pago {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.status-enviado {
+  background: #dbeafe;
+  color: #1e40af;
+}
+
+.status-entregue {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+@media (max-width: 768px) {
+  .pedido-card {
+    padding: 1.5rem;
+  }
+  
+  .pedido-info {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+}
