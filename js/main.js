@@ -133,7 +133,6 @@ const projectsData = {
         "Formatação BRL",
         "Frontend (HTML/CSS/JS)",
         "Fetch API",
-        "Docker (opcional)",
         "Testes (pytest)"
       ],
     }
