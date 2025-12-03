@@ -49,7 +49,8 @@ function generateBoard(size = 16) {
 
   // calcula tamanho do board baseado na viewport
   const vw = Math.max(document.documentElement.clientWidth || 0, window.innerWidth || 0);
-  const targetBoard = Math.min(Math.floor(vw * 0.96), 640); // limite superior
+  // usar quase a largura total da viewport para deixar o quadro maior em mobile
+  const targetBoard = Math.min(Math.floor(vw * 0.985), 740); // limite superior
 
   // lê gap e padding do CSS (fallbacks se não disponíveis)
   const cs = getComputedStyle(board);
@@ -58,7 +59,8 @@ function generateBoard(size = 16) {
 
   // Comportamento MOBILE: força tamanho mínimo de pixel e reduz colunas se necessário
   if (vw <= 600) {
-    const minPixelMobile = 14; // mínimo desejado em mobile (ajustável)
+    // aumentei o tamanho mínimo do pixel para deixar o board mais 'usável' em telas pequenas
+    const minPixelMobile = 20; // mínimo desejado em mobile (ajustável)
     const maxColsByMinPixel = Math.floor((targetBoard - padding * 2 + gap) / (minPixelMobile + gap));
     if (maxColsByMinPixel >= 1 && maxColsByMinPixel < size) {
       size = Math.max(1, maxColsByMinPixel);

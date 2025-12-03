@@ -216,8 +216,8 @@ h3 {
 
   /* Deixa o board quase em tela cheia e pixels palpáveis */
   #pixel-board {
-    width: min(96vw, 640px);
-    height: min(96vw, 640px);
+    width: min(98vw, 740px);
+    height: min(98vw, 740px);
     gap: 4px;
     padding: 10px;
   }
@@ -235,8 +235,8 @@ h3 {
   }
 
   #pixel-board {
-    width: 97vw;
-    height: 97vw;
+    width: 99vw;
+    height: 99vw;
     gap: 5px;
     padding: 8px;
   }
