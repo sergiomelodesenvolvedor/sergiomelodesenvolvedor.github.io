@@ -1,0 +1,12 @@
+{
+  "name": "sergiomelodesenvolvedor-github-io",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Ferramentas para assets do portfólio",
+  "scripts": {
+    "render:portfolio": "node tools/render-poster.js"
+  },
+  "dependencies": {
+    "sharp": "^0.33.2"
+  }
+}

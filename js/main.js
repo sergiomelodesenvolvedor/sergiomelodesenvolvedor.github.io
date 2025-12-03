@@ -110,6 +110,16 @@ const projectsData = {
       imageClass: "backend-uc",
       underConstruction: true
     }
+  ],
+  ai: [
+    {
+      title: "Chat Bot Financeiro",
+      description: "Assistente virtual inteligente para consultas financeiras, análise de gastos e planejamento financeiro. Utiliza processamento de linguagem natural para interações contextuais e personalizadas.",
+      image: "./chatbot-financeiro.png",
+      link: "#",
+      technologies: ["Python", "NLP", "Machine Learning", "API", "ChatGPT"],
+      imageClass: "ai-chatbot"
+    }
   ]
 };
 
@@ -117,6 +127,7 @@ const projectsData = {
 function loadProjects() {
   const frontendGrid = document.getElementById('frontend-projects');
   const backendGrid = document.getElementById('backend-projects');
+  const aiGrid = document.getElementById('ai-projects');
   
   // Carregar projetos frontend
   projectsData.frontend.forEach(project => {
@@ -128,6 +139,12 @@ function loadProjects() {
   projectsData.backend.forEach(project => {
     const projectCard = createProjectCard(project);
     backendGrid.innerHTML += projectCard;
+  });
+  
+  // Carregar projetos de IA
+  projectsData.ai.forEach(project => {
+    const projectCard = createProjectCard(project);
+    aiGrid.innerHTML += projectCard;
   });
 }
 
@@ -222,6 +239,12 @@ style.textContent = `
     object-position: center;
     padding: 0.5rem;
     background: linear-gradient(135deg, #0ea5e9 0%, #6366f1 100%);
+    height: 220px;
+  }
+  .project-image.ai-chatbot {
+    object-position: center;
+    padding: 0.5rem;
+    background: linear-gradient(135deg, #10b981 0%, #3b82f6 100%);
     height: 220px;
   }
   .project-media { position: relative; border-radius: 12px; overflow: hidden; }

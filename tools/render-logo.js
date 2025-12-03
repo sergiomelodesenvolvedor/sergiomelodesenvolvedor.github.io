@@ -1,0 +1,88 @@
+const fs = require('fs');
+const path = require('path');
+const sharp = require('sharp');
+
+async function main() {
+  const logoSvg = `<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <rect width="512" height="512" rx="80" fill="url(#gradient)"/>
+  
+  <!-- Package/Box icon -->
+  <g transform="translate(80, 80)">
+    <!-- Box structure -->
+    <path d="M128 32L176 8L224 32V128L176 152L128 128V32Z" 
+          stroke="white" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round" 
+          fill="none"/>
+    
+    <!-- Top lid line -->
+    <path d="M128 32L176 56L224 32" 
+          stroke="white" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Center vertical line -->
+    <path d="M176 56V152" 
+          stroke="white" 
+          stroke-width="12" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+    
+    <!-- Decorative lines on front face -->
+    <path d="M140 72L140 120" 
+          stroke="white" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          opacity="0.6"/>
+    <path d="M212 72L212 120" 
+          stroke="white" 
+          stroke-width="6" 
+          stroke-linecap="round" 
+          opacity="0.6"/>
+  </g>
+  
+  <!-- Text: DevShop -->
+  <text x="256" y="340" 
+        font-family="'Arial Black', 'Arial Bold', sans-serif" 
+        font-size="80" 
+        font-weight="900" 
+        fill="white" 
+        text-anchor="middle"
+        letter-spacing="2">DevShop</text>
+  
+  <!-- Tagline -->
+  <text x="256" y="395" 
+        font-family="'Arial', sans-serif" 
+        font-size="28" 
+        font-weight="400" 
+        fill="white" 
+        text-anchor="middle"
+        opacity="0.9"
+        letter-spacing="6">E-COMMERCE</text>
+  
+  <!-- Gradient definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0" y1="0" x2="512" y2="512" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="50%" stop-color="#8b5cf6"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+  </defs>
+</svg>`;
+
+  const outPath = path.resolve(__dirname, '..', 'assets', 'logo.jpg');
+
+  await sharp(Buffer.from(logoSvg), { density: 300 })
+    .jpeg({ quality: 95 })
+    .toFile(outPath);
+
+  console.log('JPG gerado em:', outPath);
+}
+
+main().catch(err => {
+  console.error(err);
+  process.exit(1);
+});
