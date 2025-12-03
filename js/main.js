@@ -117,6 +117,7 @@ const projectsData = {
       description: "Assistente financeiro que entende comandos em português, registra depósitos e saques, e informa seu saldo em tempo real. Backend em FastAPI com persistência SQLite, NLP híbrido (regras + Groq LLM) e frontend web simples para conversas.",
       image: "./chatbot-financeiro.png",
       link: "./DevChatBot/frontend/index.html",
+      repo: "https://github.com/sergiomelodesenvolvedor/chatbot-financeiro",
       technologies: [],
       imageClass: "ai-chatbot",
       skills: [
@@ -184,7 +185,10 @@ function createProjectCard(project) {
         <h3 class="project-title">${project.title}</h3>
         <p class="project-description">${project.description}</p>
         ${techList ? `<div class="technologies">${techList}</div>` : ''}
-        <a href="${project.link}" target="_blank" class="project-link">Ver projeto</a>
+        <div class="project-links">
+          ${project.link ? `<a href="${project.link}" target="_blank" class="project-link">Ver projeto</a>` : ''}
+          ${project.repo ? `<a href="${project.repo}" target="_blank" class="project-repo" aria-label="Repositório GitHub"><i class="fab fa-github"></i> Repositório</a>` : ''}
+        </div>
       </div>
     </div>
   `;
@@ -240,6 +244,14 @@ style.textContent = `
     border-radius: 4px;
     font-size: 0.8rem;
   }
+
+  .project-links { display:flex; gap:0.5rem; align-items:center; margin-top:0.6rem; }
+  .project-link, .project-repo {
+    display:inline-flex; gap:0.5rem; align-items:center; text-decoration:none; padding:0.45rem 0.8rem; border-radius:8px; font-weight:600;
+    background: var(--primary-color); color:#fff;
+  }
+  .project-repo { background:#222; color:#f3f4f6; }
+  .project-repo i { font-size:1rem; }
   
   .project-image.devshop-logo {
     object-fit: contain;
