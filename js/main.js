@@ -114,11 +114,28 @@ const projectsData = {
   ai: [
     {
       title: "Chat Bot Financeiro",
-      description: "Assistente virtual inteligente para consultas financeiras, análise de gastos e planejamento financeiro. Utiliza processamento de linguagem natural para interações contextuais e personalizadas.",
+      description: "Assistente financeiro que entende comandos em português, registra depósitos e saques, e informa seu saldo em tempo real. Backend em FastAPI com persistência SQLite, NLP híbrido (regras + Groq LLM) e frontend web simples para conversas.",
       image: "./chatbot-financeiro.png",
-      link: "./chatbot-financeiro.gif",
-      technologies: ["Python", "NLP", "Machine Learning", "API", "ChatGPT"],
-      imageClass: "ai-chatbot"
+      link: "./DevChatBot/frontend/index.html",
+      technologies: [],
+      imageClass: "ai-chatbot",
+      skills: [
+        "Python",
+        "FastAPI",
+        "Uvicorn",
+        "CORS",
+        "Rotas REST",
+        "NLP (Regex, Intent Detection)",
+        "Groq LLM API",
+        "Banco de Dados SQLite",
+        "WAL Mode",
+        "Modelagem de Transações",
+        "Formatação BRL",
+        "Frontend (HTML/CSS/JS)",
+        "Fetch API",
+        "Docker (opcional)",
+        "Testes (pytest)"
+      ],
     }
   ]
 };
@@ -150,8 +167,8 @@ function loadProjects() {
 
 // Função para criar o card do projeto
 function createProjectCard(project) {
-  const technologies = project.technologies.map(tech => 
-    `<span class="tech-tag">${tech}</span>`
+  const techList = (project.skills && project.skills.length ? project.skills : project.technologies || []).map(item => 
+    `<span class="tech-tag">${item}</span>`
   ).join('');
   
   const imageClass = project.imageClass ? `project-image ${project.imageClass}` : 'project-image';
@@ -167,9 +184,7 @@ function createProjectCard(project) {
       <div class="project-info">
         <h3 class="project-title">${project.title}</h3>
         <p class="project-description">${project.description}</p>
-        <div class="technologies">
-          ${technologies}
-        </div>
+        ${techList ? `<div class="technologies">${techList}</div>` : ''}
         <a href="${project.link}" target="_blank" class="project-link">Ver projeto</a>
       </div>
     </div>
