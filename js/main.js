@@ -116,7 +116,7 @@ const projectsData = {
       title: "Chat Bot Financeiro",
       description: "Assistente virtual inteligente para consultas financeiras, análise de gastos e planejamento financeiro. Utiliza processamento de linguagem natural para interações contextuais e personalizadas.",
       image: "./chatbot-financeiro.png",
-      link: "#",
+      link: "./chatbot-financeiro.gif",
       technologies: ["Python", "NLP", "Machine Learning", "API", "ChatGPT"],
       imageClass: "ai-chatbot"
     }
