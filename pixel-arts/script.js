@@ -66,11 +66,21 @@ function generateBoard(size = 16) {
       size = Math.max(1, maxColsByMinPixel);
     }
 
-    const pixelSize = Math.floor((targetBoard - padding * 2 - gap * (size - 1)) / size);
-    board.style.width = `${targetBoard}px`;
-    board.style.height = `${targetBoard}px`;
-    board.style.gridTemplateColumns = `repeat(${size}, ${pixelSize}px)`;
-    board.style.gridAutoRows = `${pixelSize}px`;
+    // On mobile we let CSS define the board width (100% of container).
+    // Compute pixel size from the actual rendered width to avoid overflow.
+    board.style.width = '';
+    board.style.height = '';
+    // Force a reflow so clientWidth is accurate
+    const boardWidth = Math.max(0, board.clientWidth || targetBoard);
+    const pixelSize = Math.floor((boardWidth - padding * 2 - gap * (size - 1)) / size) || minPixelMobile;
+    // Ensure pixelSize is at least the mobile minimum
+    const finalPixel = Math.max(pixelSize, minPixelMobile);
+    // set columns and rows using the computed pixel size
+    board.style.gridTemplateColumns = `repeat(${size}, ${finalPixel}px)`;
+    board.style.gridAutoRows = `${finalPixel}px`;
+    // set height to match width (square board): compute desired total board height
+    const totalHeight = finalPixel * size + padding * 2 + gap * (size - 1);
+    board.style.height = `${totalHeight}px`;
   } else {
     // Comportamento DESKTOP: preserva layout fluido original (1fr)
     board.style.width = "";

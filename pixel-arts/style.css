@@ -216,8 +216,10 @@ h3 {
 
   /* Deixa o board quase em tela cheia e pixels palpáveis */
   #pixel-board {
-    width: min(98vw, 740px);
-    height: min(98vw, 740px);
+    /* Use full available width of the page (respecting body padding) and prevent overflow */
+    width: 100%;
+    max-width: 720px;
+    height: auto; /* height will be controlled by JS to keep square */
     gap: 4px;
     padding: 10px;
   }
@@ -235,8 +237,9 @@ h3 {
   }
 
   #pixel-board {
-    width: 99vw;
-    height: 99vw;
+      width: 100%;
+      max-width: 680px;
+      height: auto;
     gap: 5px;
     padding: 8px;
   }
