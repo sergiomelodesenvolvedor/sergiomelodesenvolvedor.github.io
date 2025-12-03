@@ -118,6 +118,7 @@ const projectsData = {
       image: "./chatbot-financeiro.png",
       link: "./DevChatBot/frontend/index.html",
       repo: "https://github.com/sergiomelodesenvolvedor/chatbot-financeiro",
+      hideLink: true,
       technologies: [],
       imageClass: "ai-chatbot",
       skills: [
@@ -175,6 +176,10 @@ function createProjectCard(project) {
   const underFlag = project.underConstruction ? 'under-construction' : '';
   const statusBadge = project.underConstruction ? '<span class="status-badge">Em construção</span>' : '';
   
+  // Build links area: if project.hideLink is true, show only repo; otherwise show both when available
+  const repoHtml = project.repo ? `<a href="${project.repo}" target="_blank" class="project-repo" aria-label="Repositório GitHub"><i class="fab fa-github"></i> Repositório</a>` : '';
+  const projectHtml = (!project.hideLink && project.link) ? `<a href="${project.link}" target="_blank" class="project-link">Ver projeto</a>` : '';
+
   return `
     <div class="project-card reveal-on-scroll">
       <div class="project-media ${underFlag}">
@@ -185,10 +190,7 @@ function createProjectCard(project) {
         <h3 class="project-title">${project.title}</h3>
         <p class="project-description">${project.description}</p>
         ${techList ? `<div class="technologies">${techList}</div>` : ''}
-        <div class="project-links">
-          ${project.link ? `<a href="${project.link}" target="_blank" class="project-link">Ver projeto</a>` : ''}
-          ${project.repo ? `<a href="${project.repo}" target="_blank" class="project-repo" aria-label="Repositório GitHub"><i class="fab fa-github"></i> Repositório</a>` : ''}
-        </div>
+        ${ (projectHtml || repoHtml) ? `<div class="project-links">${projectHtml}${repoHtml}</div>` : '' }
       </div>
     </div>
   `;
